@@ -1,4 +1,4 @@
-///////////////////////////////////////////////////////////////////////////
+﻿///////////////////////////////////////////////////////////////////////////
 //
 // Copyright (c) 2004, Industrial Light & Magic, a division of Lucas
 // Digital Ltd. LLC
@@ -43,6 +43,7 @@
 #include "Iex.h"
 #include <ImfMisc.h>
 #include <ImfChannelList.h>
+#include <algorithm>
 
 
 namespace Imf {

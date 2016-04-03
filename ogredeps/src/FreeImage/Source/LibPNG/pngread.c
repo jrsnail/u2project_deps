@@ -1,4 +1,4 @@
-
+﻿
 /* pngread.c - read a PNG file
  *
  * Last changed in libpng 1.5.7 [December 15, 2011]

@@ -1,9 +1,9 @@
-// ==========================================================
+ï»¿// ==========================================================
 // JPEG lossless transformations
 //
 // Design and implementation by
 // - Petr Pytelka (pyta@lightcomp.com)
-// - Hervé Drolon (drolon@infonie.fr)
+// - Herv?Drolon (drolon@infonie.fr)
 //
 // This file is part of FreeImage 3
 //

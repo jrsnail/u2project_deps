@@ -1,4 +1,4 @@
-
+﻿
 /* pngmem.c - stub functions for memory allocation
  *
  * Last changed in libpng 1.5.7 [December 15, 2011]

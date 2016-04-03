@@ -1,4 +1,4 @@
-//cWiimote 0.2 by Kevin Forbes (http://simulatedcomicproduct.com)
+﻿//cWiimote 0.2 by Kevin Forbes (http://simulatedcomicproduct.com)
 //This code is public domain, and comes with no warranty. The user takes full responsibility for anything that happens as a result from using this code.
 
 //#include "wiimote.h"

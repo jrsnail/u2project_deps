@@ -1,4 +1,4 @@
-/*
+﻿/*
    dcraw.c -- Dave Coffin's raw photo decoder
    Copyright 1997-2011 by Dave Coffin, dcoffin a cybercom o net
 

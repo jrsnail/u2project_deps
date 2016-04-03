@@ -1,4 +1,4 @@
-
+﻿
 /* pngrutil.c - utilities to read a PNG file
  *
  * Last changed in libpng 1.5.9 [February 18, 2012]

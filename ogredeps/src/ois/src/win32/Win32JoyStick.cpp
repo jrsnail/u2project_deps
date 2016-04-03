@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 The zlib/libpng License
 
 Copyright (c) 2005-2007 Phillip Castaneda (pjcast -- www.wreckedgames.com)
@@ -518,7 +518,7 @@ bool Win32JoyStick::_doButtonClick( int button, DIDEVICEOBJECTDATA& di )
 //--------------------------------------------------------------------------------------------------//
 bool Win32JoyStick::_changePOV( int pov, DIDEVICEOBJECTDATA& di )
 {
-	//Some drivers report a value of 65,535, instead of —1,
+	//Some drivers report a value of 65,535, instead of ?,
 	//for the center position
 	if(LOWORD(di.dwData) == 0xFFFF)
 	{

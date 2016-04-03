@@ -1,4 +1,4 @@
-
+﻿
 /* pngwtran.c - transforms the data in a row for PNG writers
  *
  * Last changed in libpng 1.5.6 [November 3, 2011]

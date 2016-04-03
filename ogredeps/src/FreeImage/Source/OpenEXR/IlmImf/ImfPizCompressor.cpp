@@ -1,4 +1,4 @@
-///////////////////////////////////////////////////////////////////////////
+ï»¿///////////////////////////////////////////////////////////////////////////
 //
 // Copyright (c) 2004, Industrial Light & Magic, a division of Lucas
 // Digital Ltd. LLC
@@ -310,7 +310,7 @@ PizCompressor::compress (const char *inPtr,
     //
 
     //
-    // Special case ­- empty input buffer
+    // Special case ? empty input buffer
     //
 
     if (inSize == 0)

@@ -1,4 +1,4 @@
-#ifndef TIF_CONFIG_H
+﻿#ifndef TIF_CONFIG_H
 #define TIF_CONFIG_H
 
 /* Define to 1 if you have the <assert.h> header file. */
@@ -83,7 +83,7 @@ If your big endian system isn't being detected, add an OS specific check
 #endif // BYTE_ORDER
 
 #ifdef _WIN32
-#define snprintf _snprintf
+//#define snprintf _snprintf
 #define lfind _lfind
 #endif // _WIN32
 

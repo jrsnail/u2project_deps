@@ -1,4 +1,4 @@
-/* -*- C -*-
+﻿/* -*- C -*-
  * File: libraw_bytebuffer.h
  *
  * Created: Fri Aug 12 14:41:45 2011

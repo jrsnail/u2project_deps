@@ -1,4 +1,4 @@
-///////////////////////////////////////////////////////////////////////////
+﻿///////////////////////////////////////////////////////////////////////////
 //
 // Copyright (c) 2004, Industrial Light & Magic, a division of Lucas
 // Digital Ltd. LLC
@@ -58,6 +58,7 @@
 #include <vector>
 #include <fstream>
 #include <assert.h>
+#include <algorithm>
 
 
 namespace Imf {

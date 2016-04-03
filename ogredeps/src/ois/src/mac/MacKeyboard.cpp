@@ -1,4 +1,4 @@
-/*
+﻿/*
  The zlib/libpng License
  
  Copyright (c) 2005-2007 Phillip Castaneda (pjcast -- www.wreckedgames.com)

@@ -1,4 +1,4 @@
-#include "OISConfig.h"
+﻿#include "OISConfig.h"
 #ifdef OIS_WIN32_WIIMOTE_SUPPORT
 /*
 The zlib/libpng License

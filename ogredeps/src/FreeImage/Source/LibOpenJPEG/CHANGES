@@ -1,4 +1,4 @@
-2012-02-07  Antonin Descampe
+﻿2012-02-07  Antonin Descampe
 
 	* [r1384] CHANGES[DEL]: [1.5] delete CHANGES file as it will now be
 	  automatically generated when releasing the code

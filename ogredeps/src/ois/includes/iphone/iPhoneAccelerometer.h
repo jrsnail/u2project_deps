@@ -1,4 +1,4 @@
-#ifndef OIS_iPhoneAccelerometer_H
+﻿#ifndef OIS_iPhoneAccelerometer_H
 #define OIS_iPhoneAccelerometer_H
 
 #include "OISJoystick.h"

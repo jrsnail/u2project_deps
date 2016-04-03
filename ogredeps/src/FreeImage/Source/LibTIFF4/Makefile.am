@@ -1,4 +1,4 @@
-# Tag Image File Format (TIFF) Software
+﻿# Tag Image File Format (TIFF) Software
 #
 # Copyright (C) 2004, Andrey Kiselev <dron@ak4719.spb.edu>
 #

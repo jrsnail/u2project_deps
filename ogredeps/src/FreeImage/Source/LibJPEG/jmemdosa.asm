@@ -1,4 +1,4 @@
-;
+﻿;
 ; jmemdosa.asm
 ;
 ; Copyright (C) 1992, Thomas G. Lane.

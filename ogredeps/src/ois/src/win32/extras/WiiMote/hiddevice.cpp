@@ -1,4 +1,4 @@
-#include "OISConfig.h"
+﻿#include "OISConfig.h"
 #ifdef OIS_WIN32_WIIMOTE_SUPPORT
 //cWiimote 0.2 by Kevin Forbes (http://simulatedcomicproduct.com)
 //This code is public domain, and comes with no warranty. The user takes full responsibility for anything that happens as a result from using this code.

@@ -1,4 +1,4 @@
-#include "OISConfig.h"
+﻿#include "OISConfig.h"
 #ifdef OIS_LIRC_SUPPORT
 /*
 The zlib/libpng License

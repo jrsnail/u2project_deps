@@ -1,9 +1,9 @@
-// ==========================================================
+ï»¿// ==========================================================
 // Metadata functions implementation
 // Exif metadata model
 //
 // Design and implementation by
-// - Hervé Drolon (drolon@infonie.fr)
+// - Herv?Drolon (drolon@infonie.fr)
 // - Mihail Naydenov (mnaydenov@users.sourceforge.net)
 //
 // Based on the following implementations:

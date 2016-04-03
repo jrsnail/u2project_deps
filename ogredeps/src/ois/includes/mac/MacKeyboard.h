@@ -1,4 +1,4 @@
-/*
+﻿/*
  The zlib/libpng License
  
  Copyright (c) 2006 Chris Snyder 

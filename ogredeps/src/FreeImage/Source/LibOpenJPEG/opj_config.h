@@ -1,4 +1,4 @@
-/* If you want to build the library manually without using
+﻿/* If you want to build the library manually without using
  * 'configure' or 'CMake'
  * then copy this file 
  * 'opj_config.h.in.user' 

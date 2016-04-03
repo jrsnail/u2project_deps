@@ -1,4 +1,4 @@
-///////////////////////////////////////////////////////////////////////////
+﻿///////////////////////////////////////////////////////////////////////////
 //
 // Copyright (c) 2007, Industrial Light & Magic, a division of Lucas
 // Digital Ltd. LLC
@@ -42,6 +42,7 @@
 #include <ImfRgbaFile.h>
 #include <ImfStandardAttributes.h>
 #include <Iex.h>
+#include <algorithm>
 
 using namespace std;
 using namespace Imath;

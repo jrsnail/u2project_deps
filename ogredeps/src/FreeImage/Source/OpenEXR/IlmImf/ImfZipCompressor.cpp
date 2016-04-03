@@ -1,4 +1,4 @@
-///////////////////////////////////////////////////////////////////////////
+ï»¿///////////////////////////////////////////////////////////////////////////
 //
 // Copyright (c) 2004, Industrial Light & Magic, a division of Lucas
 // Digital Ltd. LLC
@@ -97,7 +97,7 @@ ZipCompressor::compress (const char *inPtr,
 			 const char *&outPtr)
 {
     //
-    // Special case ­- empty input buffer
+    // Special case ? empty input buffer
     //
 
     if (inSize == 0)
@@ -171,7 +171,7 @@ ZipCompressor::uncompress (const char *inPtr,
 			   const char *&outPtr)
 {
     //
-    // Special case ­- empty input buffer
+    // Special case ? empty input buffer
     //
 
     if (inSize == 0)
