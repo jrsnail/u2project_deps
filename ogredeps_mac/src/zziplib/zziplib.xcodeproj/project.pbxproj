@@ -1,0 +1,952 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              CCC3CD69D67B48B0BB35518F /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = ADA7D82F065E4A7BB28CD43C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            8FEA447982E54B1B8BBCC334 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            D1ECBF7C01B84FFE8606E4C1 /* PBXTargetDependency */,
+                            92225BF0918641FBA7C79894 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              D3404E886AD64511A722380F /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 616801C262254F9996ABAA5F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            A19AD810EFE34BA68D1BA5A3 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              6A1F1235DC7741F9ABA865CC /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 9C7DBE67F59B4EFBB9F79EAF /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            6428C12AEC624DF6BC4EC1B3 /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            1648007E267F46BA912EAB07 /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+EF5F0BB83BD0471A96DF2F37 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/autoconf.h */ = {isa = PBXBuildFile; fileRef = 94276D2CC91F469B875B49CE /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/autoconf.h */; settings = { COMPILER_FLAGS = ""; }; };
+7EAD82D87CDD4CEA8F8A3DBD /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/conf.h */ = {isa = PBXBuildFile; fileRef = 710B69D7B381471B8433ED1E /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/conf.h */; settings = { COMPILER_FLAGS = ""; }; };
+36AC35E36B8249CBA555E0EB /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/_config.h */ = {isa = PBXBuildFile; fileRef = D6603EA4359340848277E351 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/_config.h */; settings = { COMPILER_FLAGS = ""; }; };
+06A20BEA08414BA4AC17B703 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/__debug.h */ = {isa = PBXBuildFile; fileRef = B83F92F2A2094239A61D4EF4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/__debug.h */; settings = { COMPILER_FLAGS = ""; }; };
+C4344C01EF63435D9996D274 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/dir.c */ = {isa = PBXBuildFile; fileRef = 87EB0BC5692245448A2EAD0A /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/dir.c */; settings = { COMPILER_FLAGS = ""; }; };
+82AC820F66294BC0B36233BC /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/__dirent.h */ = {isa = PBXBuildFile; fileRef = 63665280E29C4897A9BEC53F /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/__dirent.h */; settings = { COMPILER_FLAGS = ""; }; };
+DA7042A5364A449886D3BD72 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/err.c */ = {isa = PBXBuildFile; fileRef = AC21EF5A6E014BC0A95917DF /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/err.c */; settings = { COMPILER_FLAGS = ""; }; };
+02CFC3CB9420479FB6357718 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/fetch.c */ = {isa = PBXBuildFile; fileRef = 65E9E1FF810949A388150F18 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/fetch.c */; settings = { COMPILER_FLAGS = ""; }; };
+B20F2A6416C545D2B8768C74 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/fetch.h */ = {isa = PBXBuildFile; fileRef = D97A3F405D2F480094E304CE /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/fetch.h */; settings = { COMPILER_FLAGS = ""; }; };
+A649328A2D2041F088621913 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/file.c */ = {isa = PBXBuildFile; fileRef = 39E8029FAE2146A79BA09715 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/file.c */; settings = { COMPILER_FLAGS = ""; }; };
+7B72BE5095FB44559A612F2A /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/file.h */ = {isa = PBXBuildFile; fileRef = A01ACA2BEAAD4C9E9889F92B /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/file.h */; settings = { COMPILER_FLAGS = ""; }; };
+6D9A418E1FD5453CB94F82D5 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/__fnmatch.h */ = {isa = PBXBuildFile; fileRef = 0149DAB4227540F6996171AE /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/__fnmatch.h */; settings = { COMPILER_FLAGS = ""; }; };
+EEEBC0F16A544116B2137DB1 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/format.h */ = {isa = PBXBuildFile; fileRef = 5638D90D045D4546A61490B2 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/format.h */; settings = { COMPILER_FLAGS = ""; }; };
+CF638756BCE848398B8027F4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/fseeko.c */ = {isa = PBXBuildFile; fileRef = 68CA825313034C1BBCF18475 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/fseeko.c */; settings = { COMPILER_FLAGS = ""; }; };
+940E469E918545D294F7E01F /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/fseeko.h */ = {isa = PBXBuildFile; fileRef = 462FB75F2EDB49389CC8B0B4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/fseeko.h */; settings = { COMPILER_FLAGS = ""; }; };
+5D3A23B1A00C45629013810A /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/__hints.h */ = {isa = PBXBuildFile; fileRef = 34DA3B0B35BE419B846B66F7 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/__hints.h */; settings = { COMPILER_FLAGS = ""; }; };
+508BBBABDB1A493BB24788FC /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/info.c */ = {isa = PBXBuildFile; fileRef = 7748915982C74443B121A753 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/info.c */; settings = { COMPILER_FLAGS = ""; }; };
+73A7FA12B37248B3AE0E4C11 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/info.h */ = {isa = PBXBuildFile; fileRef = D89D868110A545599E4DFC37 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/info.h */; settings = { COMPILER_FLAGS = ""; }; };
+68D16DF4FEC2425FA5534EA8 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/lib.h */ = {isa = PBXBuildFile; fileRef = D9BF3D7090EA4E5CA5F13FD4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/lib.h */; settings = { COMPILER_FLAGS = ""; }; };
+0C60D428DA7A4B12AEBFEE8E /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/memdisk.c */ = {isa = PBXBuildFile; fileRef = 1657304057F745848A2EA7AA /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/memdisk.c */; settings = { COMPILER_FLAGS = ""; }; };
+DE567AFA258F436B980F5EBF /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/memdisk.h */ = {isa = PBXBuildFile; fileRef = B328D6F1330C40F792E0B9CE /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/memdisk.h */; settings = { COMPILER_FLAGS = ""; }; };
+3D2B53A0C07D4873B7013F22 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/__mmap.h */ = {isa = PBXBuildFile; fileRef = BFEB481A32B54AFC864CC604 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/__mmap.h */; settings = { COMPILER_FLAGS = ""; }; };
+A232545DDA1C4B09B5BCCCF9 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/mmapped.c */ = {isa = PBXBuildFile; fileRef = 1A48786F9F594B858E93B5A8 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/mmapped.c */; settings = { COMPILER_FLAGS = ""; }; };
+7BFA8BEEC1EB43A0B394DD7E /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/mmapped.h */ = {isa = PBXBuildFile; fileRef = 2A0FE4AA4D1E40C59354AC89 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/mmapped.h */; settings = { COMPILER_FLAGS = ""; }; };
+B2686D9ADAA24B48886F1AC2 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/_msvc.h */ = {isa = PBXBuildFile; fileRef = 408BF5CBCD71423591CD597C /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/_msvc.h */; settings = { COMPILER_FLAGS = ""; }; };
+0AD51D86D5EF4268B8376E06 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/plugin.c */ = {isa = PBXBuildFile; fileRef = 5B6924E036494B2AA05041B7 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/plugin.c */; settings = { COMPILER_FLAGS = ""; }; };
+84C35FAEEA0744508A489E32 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/plugin.h */ = {isa = PBXBuildFile; fileRef = 6063AC463BC544979B832BC8 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/plugin.h */; settings = { COMPILER_FLAGS = ""; }; };
+1E7A0E4252FE449FA6519CBD /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/stat.c */ = {isa = PBXBuildFile; fileRef = E6BE9B597C704259B6B25402 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/stat.c */; settings = { COMPILER_FLAGS = ""; }; };
+9A537548FF824FE38394E6D0 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/stdint.h */ = {isa = PBXBuildFile; fileRef = 6E9FE937B68B4D47B34852AA /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/stdint.h */; settings = { COMPILER_FLAGS = ""; }; };
+E92D0391C674434380EBFCFE /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/types.h */ = {isa = PBXBuildFile; fileRef = 9F550B10D51B47C69A9E5FDF /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/types.h */; settings = { COMPILER_FLAGS = ""; }; };
+E4DF5EE8563840EA878AF220 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/write.c */ = {isa = PBXBuildFile; fileRef = 6AFFBF6FF81E4EC9B674D5AB /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/write.c */; settings = { COMPILER_FLAGS = ""; }; };
+0EA0B950F317437C8311008F /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/write.h */ = {isa = PBXBuildFile; fileRef = 1FAAB68F922F4BAEA9925AF0 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/write.h */; settings = { COMPILER_FLAGS = ""; }; };
+CCE84C45D16C4E47AEF2940A /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/zip.c */ = {isa = PBXBuildFile; fileRef = 9CFDF252A4C24AE2873A5D86 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/zip.c */; settings = { COMPILER_FLAGS = ""; }; };
+A027D16762B54EA8A853A327 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/zzip32.h */ = {isa = PBXBuildFile; fileRef = 47329E0EDB6B455D906E37B4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/zzip32.h */; settings = { COMPILER_FLAGS = ""; }; };
+BA1F2247968444098F2E752B /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/zzip.h */ = {isa = PBXBuildFile; fileRef = 5B19B4B2B74D422EAADCE149 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/zzip.h */; settings = { COMPILER_FLAGS = ""; }; };
+F42EA395A98049A0901F5029 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E0F69DDCEF2140C2855FBAC3 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              B62A39272B0246FE96A74F59 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              5CC72748678D40618F888560 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              65E075B2F1234D0694B1622D /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              473995E63D594592AC049EDE /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              335948B6A2BF4726AACB6C52 /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              EA9630C57338409DA81D0BB2 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 040733AACF0A45C182C96804 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = D9229DA9E34343318419FE0E;
+                     remoteInfo = zziplib;
+              };
+              CF82383F92424402B1317697 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 040733AACF0A45C182C96804 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = D3404E886AD64511A722380F;
+                     remoteInfo = ZERO_CHECK;
+              };
+              BB09690B88444D6C8577F592 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 040733AACF0A45C182C96804 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = CCC3CD69D67B48B0BB35518F;
+                     remoteInfo = ALL_BUILD;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+E0F69DDCEF2140C2855FBAC3 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+94276D2CC91F469B875B49CE /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/autoconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "autoconf.h"; path = "zzip/autoconf.h"; sourceTree = SOURCE_ROOT; };
+710B69D7B381471B8433ED1E /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/conf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "conf.h"; path = "zzip/conf.h"; sourceTree = SOURCE_ROOT; };
+D6603EA4359340848277E351 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "_config.h"; path = "zzip/_config.h"; sourceTree = SOURCE_ROOT; };
+B83F92F2A2094239A61D4EF4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/__debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "__debug.h"; path = "zzip/__debug.h"; sourceTree = SOURCE_ROOT; };
+87EB0BC5692245448A2EAD0A /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/dir.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "dir.c"; path = "zzip/dir.c"; sourceTree = SOURCE_ROOT; };
+63665280E29C4897A9BEC53F /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/__dirent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "__dirent.h"; path = "zzip/__dirent.h"; sourceTree = SOURCE_ROOT; };
+AC21EF5A6E014BC0A95917DF /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/err.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "err.c"; path = "zzip/err.c"; sourceTree = SOURCE_ROOT; };
+65E9E1FF810949A388150F18 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/fetch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "fetch.c"; path = "zzip/fetch.c"; sourceTree = SOURCE_ROOT; };
+D97A3F405D2F480094E304CE /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/fetch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "fetch.h"; path = "zzip/fetch.h"; sourceTree = SOURCE_ROOT; };
+39E8029FAE2146A79BA09715 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "file.c"; path = "zzip/file.c"; sourceTree = SOURCE_ROOT; };
+A01ACA2BEAAD4C9E9889F92B /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "file.h"; path = "zzip/file.h"; sourceTree = SOURCE_ROOT; };
+0149DAB4227540F6996171AE /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/__fnmatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "__fnmatch.h"; path = "zzip/__fnmatch.h"; sourceTree = SOURCE_ROOT; };
+5638D90D045D4546A61490B2 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "format.h"; path = "zzip/format.h"; sourceTree = SOURCE_ROOT; };
+68CA825313034C1BBCF18475 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/fseeko.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "fseeko.c"; path = "zzip/fseeko.c"; sourceTree = SOURCE_ROOT; };
+462FB75F2EDB49389CC8B0B4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/fseeko.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "fseeko.h"; path = "zzip/fseeko.h"; sourceTree = SOURCE_ROOT; };
+34DA3B0B35BE419B846B66F7 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/__hints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "__hints.h"; path = "zzip/__hints.h"; sourceTree = SOURCE_ROOT; };
+7748915982C74443B121A753 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/info.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "info.c"; path = "zzip/info.c"; sourceTree = SOURCE_ROOT; };
+D89D868110A545599E4DFC37 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "info.h"; path = "zzip/info.h"; sourceTree = SOURCE_ROOT; };
+D9BF3D7090EA4E5CA5F13FD4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "lib.h"; path = "zzip/lib.h"; sourceTree = SOURCE_ROOT; };
+1657304057F745848A2EA7AA /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/memdisk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "memdisk.c"; path = "zzip/memdisk.c"; sourceTree = SOURCE_ROOT; };
+B328D6F1330C40F792E0B9CE /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/memdisk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "memdisk.h"; path = "zzip/memdisk.h"; sourceTree = SOURCE_ROOT; };
+BFEB481A32B54AFC864CC604 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/__mmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "__mmap.h"; path = "zzip/__mmap.h"; sourceTree = SOURCE_ROOT; };
+1A48786F9F594B858E93B5A8 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/mmapped.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "mmapped.c"; path = "zzip/mmapped.c"; sourceTree = SOURCE_ROOT; };
+2A0FE4AA4D1E40C59354AC89 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/mmapped.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "mmapped.h"; path = "zzip/mmapped.h"; sourceTree = SOURCE_ROOT; };
+408BF5CBCD71423591CD597C /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/_msvc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "_msvc.h"; path = "zzip/_msvc.h"; sourceTree = SOURCE_ROOT; };
+5B6924E036494B2AA05041B7 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/plugin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "plugin.c"; path = "zzip/plugin.c"; sourceTree = SOURCE_ROOT; };
+6063AC463BC544979B832BC8 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/plugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "plugin.h"; path = "zzip/plugin.h"; sourceTree = SOURCE_ROOT; };
+E6BE9B597C704259B6B25402 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/stat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "stat.c"; path = "zzip/stat.c"; sourceTree = SOURCE_ROOT; };
+6E9FE937B68B4D47B34852AA /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/stdint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "stdint.h"; path = "zzip/stdint.h"; sourceTree = SOURCE_ROOT; };
+9F550B10D51B47C69A9E5FDF /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "types.h"; path = "zzip/types.h"; sourceTree = SOURCE_ROOT; };
+6AFFBF6FF81E4EC9B674D5AB /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/write.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "write.c"; path = "zzip/write.c"; sourceTree = SOURCE_ROOT; };
+1FAAB68F922F4BAEA9925AF0 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/write.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "write.h"; path = "zzip/write.h"; sourceTree = SOURCE_ROOT; };
+9CFDF252A4C24AE2873A5D86 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "zip.c"; path = "zzip/zip.c"; sourceTree = SOURCE_ROOT; };
+47329E0EDB6B455D906E37B4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/zzip32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "zzip32.h"; path = "zzip/zzip32.h"; sourceTree = SOURCE_ROOT; };
+5B19B4B2B74D422EAADCE149 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/zzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "zzip.h"; path = "zzip/zzip.h"; sourceTree = SOURCE_ROOT; };
+B38DDAFDB597463CB36D5EC6 /* zziplib */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libzziplib.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              BECAA35B4BCC481FB99962E0  = {
+                     isa = PBXGroup;
+                     children = (
+                            54C83BAFC96347228EC5B968 /* Sources */,
+                            656DDCE5915C4FA19C70CAFA /* Resources */,
+                            A2EC79A9CEF44CACA0B3A276 /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              54C83BAFC96347228EC5B968 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            F64B5C02FFDB4115BA2A9178 /* ALL_BUILD */,
+                            4AF5905E0EF94260836C5535 /* ZERO_CHECK */,
+                            3482BA83538E401E9DB08DD5 /* zziplib */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              656DDCE5915C4FA19C70CAFA /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              F64B5C02FFDB4115BA2A9178 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            E2CA1336DEF241CDBDC522A5 /* CMake Rules */,
+                            E0F69DDCEF2140C2855FBAC3 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              E2CA1336DEF241CDBDC522A5 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              4AF5905E0EF94260836C5535 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            60D7A7D5A4F54FD1BA34E8AD /* CMake Rules */,
+                            E0F69DDCEF2140C2855FBAC3 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              60D7A7D5A4F54FD1BA34E8AD /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              3482BA83538E401E9DB08DD5 /* zziplib */ = {
+                     isa = PBXGroup;
+                     children = (
+                            A6A63E9F747A4D38B19E387A /* Header Files */,
+                            9C92158CE1CB4604A3DE7325 /* Source Files */,
+                            E0F69DDCEF2140C2855FBAC3 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/CMakeLists.txt */,
+                     );
+                     name = zziplib;
+                     sourceTree = "<group>";
+              };
+              A6A63E9F747A4D38B19E387A /* Header Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            94276D2CC91F469B875B49CE /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/autoconf.h */,
+                            710B69D7B381471B8433ED1E /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/conf.h */,
+                            D6603EA4359340848277E351 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/_config.h */,
+                            B83F92F2A2094239A61D4EF4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/__debug.h */,
+                            63665280E29C4897A9BEC53F /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/__dirent.h */,
+                            D97A3F405D2F480094E304CE /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/fetch.h */,
+                            A01ACA2BEAAD4C9E9889F92B /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/file.h */,
+                            0149DAB4227540F6996171AE /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/__fnmatch.h */,
+                            5638D90D045D4546A61490B2 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/format.h */,
+                            462FB75F2EDB49389CC8B0B4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/fseeko.h */,
+                            34DA3B0B35BE419B846B66F7 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/__hints.h */,
+                            D89D868110A545599E4DFC37 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/info.h */,
+                            D9BF3D7090EA4E5CA5F13FD4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/lib.h */,
+                            B328D6F1330C40F792E0B9CE /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/memdisk.h */,
+                            BFEB481A32B54AFC864CC604 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/__mmap.h */,
+                            2A0FE4AA4D1E40C59354AC89 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/mmapped.h */,
+                            408BF5CBCD71423591CD597C /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/_msvc.h */,
+                            6063AC463BC544979B832BC8 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/plugin.h */,
+                            6E9FE937B68B4D47B34852AA /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/stdint.h */,
+                            9F550B10D51B47C69A9E5FDF /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/types.h */,
+                            1FAAB68F922F4BAEA9925AF0 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/write.h */,
+                            47329E0EDB6B455D906E37B4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/zzip32.h */,
+                            5B19B4B2B74D422EAADCE149 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/zzip.h */,
+                     );
+                     name = "Header Files";
+                     sourceTree = "<group>";
+              };
+              9C92158CE1CB4604A3DE7325 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            87EB0BC5692245448A2EAD0A /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/dir.c */,
+                            AC21EF5A6E014BC0A95917DF /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/err.c */,
+                            65E9E1FF810949A388150F18 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/fetch.c */,
+                            39E8029FAE2146A79BA09715 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/file.c */,
+                            68CA825313034C1BBCF18475 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/fseeko.c */,
+                            7748915982C74443B121A753 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/info.c */,
+                            1657304057F745848A2EA7AA /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/memdisk.c */,
+                            1A48786F9F594B858E93B5A8 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/mmapped.c */,
+                            5B6924E036494B2AA05041B7 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/plugin.c */,
+                            E6BE9B597C704259B6B25402 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/stat.c */,
+                            6AFFBF6FF81E4EC9B674D5AB /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/write.c */,
+                            9CFDF252A4C24AE2873A5D86 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/zip.c */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              A2EC79A9CEF44CACA0B3A276 /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            B38DDAFDB597463CB36D5EC6 /* zziplib */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              D9229DA9E34343318419FE0E /* zziplib */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 1D3BF186B09A4444A938B892 /* Build configuration list for PBXNativeTarget "zziplib" */;
+                     buildPhases = (
+                            AA043CE62B3643B59FD27A7F /* Sources */,
+                            E1434DA9AB09469EB7CF885F /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            92225BF0918641FBA7C79894 /* PBXTargetDependency */,
+                     );
+                     name = zziplib;
+                     productName = zziplib;
+                     productReference = B38DDAFDB597463CB36D5EC6 /* zziplib */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              040733AACF0A45C182C96804 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = DC36F3210D574165BFBCC24B /* Build configuration list for PBXProject  "zziplib" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            5CC72748678D40618F888560 /* Debug */,
+                            65E075B2F1234D0694B1622D /* Release */,
+                            473995E63D594592AC049EDE /* MinSizeRel */,
+                            335948B6A2BF4726AACB6C52 /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = BECAA35B4BCC481FB99962E0;
+                     projectDirPath = /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib;
+                     projectRoot = "";
+                     targets = (
+                            CCC3CD69D67B48B0BB35518F /* ALL_BUILD */,
+                            D3404E886AD64511A722380F /* ZERO_CHECK */,
+                            6A1F1235DC7741F9ABA865CC /* install */,
+                            D9229DA9E34343318419FE0E /* zziplib */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              049CF3AC7DE84B839B7B8231 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              8FEA447982E54B1B8BBCC334 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/rongji/Work/u2project_deps/ogredeps_mac/src/zziplib -f /Users/rongji/Work/u2project_deps/ogredeps_mac/src/zziplib/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              CA17A3EE2BF943BDAA3FD340 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              A19AD810EFE34BA68D1BA5A3 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/rongji/Work/u2project_deps/ogredeps_mac/src/zziplib -f /Users/rongji/Work/u2project_deps/ogredeps_mac/src/zziplib/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              AF0FD6D0AF594AFEBB89B0A6 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              6428C12AEC624DF6BC4EC1B3 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/rongji/Work/u2project_deps/ogredeps_mac/src/zziplib -f /Users/rongji/Work/u2project_deps/ogredeps_mac/src/zziplib/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              E1434DA9AB09469EB7CF885F /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/rongji/Work/u2project_deps/ogredeps_mac/src/zziplib -f /Users/rongji/Work/u2project_deps/ogredeps_mac/src/zziplib/CMakeScripts/zziplib_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              AA043CE62B3643B59FD27A7F /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            C4344C01EF63435D9996D274 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/dir.c */,
+                            DA7042A5364A449886D3BD72 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/err.c */,
+                            02CFC3CB9420479FB6357718 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/fetch.c */,
+                            A649328A2D2041F088621913 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/file.c */,
+                            CF638756BCE848398B8027F4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/fseeko.c */,
+                            508BBBABDB1A493BB24788FC /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/info.c */,
+                            0C60D428DA7A4B12AEBFEE8E /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/memdisk.c */,
+                            A232545DDA1C4B09B5BCCCF9 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/mmapped.c */,
+                            0AD51D86D5EF4268B8376E06 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/plugin.c */,
+                            1E7A0E4252FE449FA6519CBD /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/stat.c */,
+                            E4DF5EE8563840EA878AF220 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/write.c */,
+                            CCE84C45D16C4E47AEF2940A /* /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib/zzip/zip.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              D1ECBF7C01B84FFE8606E4C1 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = D9229DA9E34343318419FE0E /* zziplib */;
+                     targetProxy = EA9630C57338409DA81D0BB2 /* PBXContainerItemProxy */;
+              };
+              92225BF0918641FBA7C79894 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = D3404E886AD64511A722380F /* ZERO_CHECK */;
+                     targetProxy = CF82383F92424402B1317697 /* PBXContainerItemProxy */;
+              };
+              1648007E267F46BA912EAB07 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = CCC3CD69D67B48B0BB35518F /* ALL_BUILD */;
+                     targetProxy = BB09690B88444D6C8577F592 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              DCB4D3302A0B42189063C4FA /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            MACOSX_DEPLOYMENT_TARGET = "10.6";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/zziplib/build;
+                     };
+                     name = Debug;
+              };
+              22AE4B2CEDA840EEB2EE8727 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            MACOSX_DEPLOYMENT_TARGET = "10.6";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/zziplib/build;
+                     };
+                     name = Release;
+              };
+              E2526BE0868E4026A4BFFB0A /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            MACOSX_DEPLOYMENT_TARGET = "10.6";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/zziplib/build;
+                     };
+                     name = MinSizeRel;
+              };
+              257A2C6A281642E19E3AAD4E /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            MACOSX_DEPLOYMENT_TARGET = "10.6";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/zziplib/build;
+                     };
+                     name = RelWithDebInfo;
+              };
+              104F5F6A52D74E88BBA2F14A /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/zlib, /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/zziplib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              E6C8E2C9FA394C4AAF95EDC5 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/zlib, /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/zziplib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              F7112230FF7C47D4A15DD159 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/zlib, /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/zziplib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              EF8B86FBBD2B4122B66549EF /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/zlib, /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/zziplib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              3AF8934455674F71A1FB7C34 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/zlib, /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/zziplib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              1D7284A1E52A4C5981100FE9 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/zlib, /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/zziplib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              32D4F3C9232D4679BBE02946 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/zlib, /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/zziplib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              5099016C57004D998204118A /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/zlib, /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/zziplib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              5283CE814DC34F6F9CEBEBF8 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/zlib, /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/zziplib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              E769807E96164F96BFD0A4FC /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/zlib, /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/zziplib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              6B2153FDA6974B60B1B5F9FF /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/zlib, /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/zziplib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              7998C34F319E4B07A0447799 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/zlib, /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/zziplib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              A0EE77191FD344DBB9A94022 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/zlib, /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "    ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = zziplib;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/zziplib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              0FD5D742D4C14E5FA216E729 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/zlib, /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = zziplib;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/zziplib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              60DD236169904F1C84EE972E /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/zlib, /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = zziplib;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/zziplib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              7BA8E0F877064C489280C831 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/zlib, /Users/rongji/Work/u2project_deps/ogredeps/src/zziplib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = zziplib;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/zziplib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              DC36F3210D574165BFBCC24B /* Build configuration list for PBXProject  "zziplib" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            DCB4D3302A0B42189063C4FA /* Debug */,
+                            22AE4B2CEDA840EEB2EE8727 /* Release */,
+                            E2526BE0868E4026A4BFFB0A /* MinSizeRel */,
+                            257A2C6A281642E19E3AAD4E /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              ADA7D82F065E4A7BB28CD43C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            104F5F6A52D74E88BBA2F14A /* Debug */,
+                            E6C8E2C9FA394C4AAF95EDC5 /* Release */,
+                            F7112230FF7C47D4A15DD159 /* MinSizeRel */,
+                            EF8B86FBBD2B4122B66549EF /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              616801C262254F9996ABAA5F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            3AF8934455674F71A1FB7C34 /* Debug */,
+                            1D7284A1E52A4C5981100FE9 /* Release */,
+                            32D4F3C9232D4679BBE02946 /* MinSizeRel */,
+                            5099016C57004D998204118A /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              9C7DBE67F59B4EFBB9F79EAF /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            5283CE814DC34F6F9CEBEBF8 /* Debug */,
+                            E769807E96164F96BFD0A4FC /* Release */,
+                            6B2153FDA6974B60B1B5F9FF /* MinSizeRel */,
+                            7998C34F319E4B07A0447799 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              1D3BF186B09A4444A938B892 /* Build configuration list for PBXNativeTarget "zziplib" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            A0EE77191FD344DBB9A94022 /* Debug */,
+                            0FD5D742D4C14E5FA216E729 /* Release */,
+                            60DD236169904F1C84EE972E /* MinSizeRel */,
+                            7BA8E0F877064C489280C831 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 040733AACF0A45C182C96804;
+}

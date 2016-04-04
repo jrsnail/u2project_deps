@@ -1,0 +1,1115 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              CCC3CD69D67B48B0BB35518F /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 91842B0D764A4D1F9842E5B0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            AEA5B880C0AC430889D01DBF /* CMake Rules */,
+                     );
+                     dependencies = (
+                            A4CE5C3F7CE9413CB6185BDA /* PBXTargetDependency */,
+                            6EAD14651DDC441FBEF25263 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              D3404E886AD64511A722380F /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = D74D6EB048D244E08585C3C2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            15E28E941497458C913ED651 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              6A1F1235DC7741F9ABA865CC /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 220D345DF7994F2ABE4A5783 /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            65A07FE7816340DC938F4560 /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            90A1C61F7B7D4C34B1469B21 /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+9AC434A86B024D5980EE360E /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/config/ftconfig.h */ = {isa = PBXBuildFile; fileRef = 0BF73BCE69F643539E67FFB0 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/config/ftconfig.h */; settings = { COMPILER_FLAGS = ""; }; };
+BDA6A6661A2646378602C864 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/config/ftheader.h */ = {isa = PBXBuildFile; fileRef = 3F57950937714391A31AF583 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/config/ftheader.h */; settings = { COMPILER_FLAGS = ""; }; };
+39C8D3DB7EEE45FA94C54B4F /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/config/ftmodule.h */ = {isa = PBXBuildFile; fileRef = ACF4349C537C4C17B271728E /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/config/ftmodule.h */; settings = { COMPILER_FLAGS = ""; }; };
+23CDE238E0334AC3B59EF4B4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/config/ftoption.h */ = {isa = PBXBuildFile; fileRef = D884A38689E74D76AA719DFF /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/config/ftoption.h */; settings = { COMPILER_FLAGS = ""; }; };
+AFA00E1D11C3446A853DC187 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/config/ftstdlib.h */ = {isa = PBXBuildFile; fileRef = 0E9450E540CD47A1BE5009C3 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/config/ftstdlib.h */; settings = { COMPILER_FLAGS = ""; }; };
+4F6EE86A6E8B4777A659E876 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/freetype.h */ = {isa = PBXBuildFile; fileRef = 3AF78214F7AA4CB2B0B279C9 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/freetype.h */; settings = { COMPILER_FLAGS = ""; }; };
+38FCEF81E52347CCB6338F56 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftadvanc.h */ = {isa = PBXBuildFile; fileRef = 3A8F22E531B34CBA9480AC08 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftadvanc.h */; settings = { COMPILER_FLAGS = ""; }; };
+ACC218C9152C471BBB6C8DF0 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftbbox.h */ = {isa = PBXBuildFile; fileRef = 56DDA3FF88C04C2985F30B96 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftbbox.h */; settings = { COMPILER_FLAGS = ""; }; };
+4BE0610029284217A2279535 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftbdf.h */ = {isa = PBXBuildFile; fileRef = 8EBD47AC3C31463AA830E0E7 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftbdf.h */; settings = { COMPILER_FLAGS = ""; }; };
+3ACD043001C04BAEB90E9588 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftbitmap.h */ = {isa = PBXBuildFile; fileRef = A70D4D8CB2114C779C3F14B8 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftbitmap.h */; settings = { COMPILER_FLAGS = ""; }; };
+E942B6B2D1EA4153B46759BE /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftbzip2.h */ = {isa = PBXBuildFile; fileRef = B7B6A57A1FC046EEA179CA00 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftbzip2.h */; settings = { COMPILER_FLAGS = ""; }; };
+97D84E6DEBBF4477BADF74EA /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftcache.h */ = {isa = PBXBuildFile; fileRef = 30D25487B7724844868F7625 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftcache.h */; settings = { COMPILER_FLAGS = ""; }; };
+70AFBB7865FE414A95531346 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftchapters.h */ = {isa = PBXBuildFile; fileRef = 7C24AB8CB8D64BD2A8FEE4B5 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftchapters.h */; settings = { COMPILER_FLAGS = ""; }; };
+51E4FB6523AC4B34BE0A11D7 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftcid.h */ = {isa = PBXBuildFile; fileRef = 728A3D78BC0543FD8D65D1DC /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftcid.h */; settings = { COMPILER_FLAGS = ""; }; };
+337684D7366B4D0C8B007FE3 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/fterrdef.h */ = {isa = PBXBuildFile; fileRef = 9D52476094C34CC4AFD6DC18 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/fterrdef.h */; settings = { COMPILER_FLAGS = ""; }; };
+643721DE96FD419A9F8DA89F /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/fterrors.h */ = {isa = PBXBuildFile; fileRef = 5E76E8269B2F44D99CE8F9FD /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/fterrors.h */; settings = { COMPILER_FLAGS = ""; }; };
+5D311DED128843D4A7DA63BD /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftgasp.h */ = {isa = PBXBuildFile; fileRef = DF5C11B90FCF4ED9B2AD269B /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftgasp.h */; settings = { COMPILER_FLAGS = ""; }; };
+49C13B97BB5840FB8A8F41E1 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftglyph.h */ = {isa = PBXBuildFile; fileRef = 59D76BC21EA04EFD9BC28B45 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftglyph.h */; settings = { COMPILER_FLAGS = ""; }; };
+0C7B0D777DA94A8AB72918FA /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftgxval.h */ = {isa = PBXBuildFile; fileRef = 7F773F53EAE24B2192AAC6EC /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftgxval.h */; settings = { COMPILER_FLAGS = ""; }; };
+69F88435C73C442F8734EA92 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftgzip.h */ = {isa = PBXBuildFile; fileRef = CFF5ECFA435B438DBDC1FD2A /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftgzip.h */; settings = { COMPILER_FLAGS = ""; }; };
+C7F699C59E674E2AB0EAF1A8 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftimage.h */ = {isa = PBXBuildFile; fileRef = C364BCD09C7641C3988D612E /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftimage.h */; settings = { COMPILER_FLAGS = ""; }; };
+072C6694ED0F4095860FAD46 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftincrem.h */ = {isa = PBXBuildFile; fileRef = 3AD79A01DC1F4C8A9923BA6A /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftincrem.h */; settings = { COMPILER_FLAGS = ""; }; };
+445E956AEE5C46268816009D /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftlcdfil.h */ = {isa = PBXBuildFile; fileRef = 5F6269879ED24B758AFB3F3D /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftlcdfil.h */; settings = { COMPILER_FLAGS = ""; }; };
+A0473349770D4269BAAE29F8 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftlist.h */ = {isa = PBXBuildFile; fileRef = DA03AA559A6E45DFBBA0A155 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftlist.h */; settings = { COMPILER_FLAGS = ""; }; };
+9FC1C206743D4934BCE7D8C9 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftlzw.h */ = {isa = PBXBuildFile; fileRef = 13CCDCA3C7EF4376BCDC3840 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftlzw.h */; settings = { COMPILER_FLAGS = ""; }; };
+9F750D4AF23B49B19D2B7CC4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftmac.h */ = {isa = PBXBuildFile; fileRef = 867A205954024FD0A8B0671E /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftmac.h */; settings = { COMPILER_FLAGS = ""; }; };
+26F1EAC7192A4E59B6D3AA0D /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftmm.h */ = {isa = PBXBuildFile; fileRef = CC4C9CAEF5784FEABBF5B6F1 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftmm.h */; settings = { COMPILER_FLAGS = ""; }; };
+FEA5B801F9134AF280E5FCBB /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftmodapi.h */ = {isa = PBXBuildFile; fileRef = 8161E8BE229E49AFB5D65791 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftmodapi.h */; settings = { COMPILER_FLAGS = ""; }; };
+1044C59DA269435993F4527C /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftmoderr.h */ = {isa = PBXBuildFile; fileRef = 03F27C4848FE43058DF366F6 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftmoderr.h */; settings = { COMPILER_FLAGS = ""; }; };
+ECD49440A06747CC8DAAB322 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftotval.h */ = {isa = PBXBuildFile; fileRef = 8441140B14B04213A2E77231 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftotval.h */; settings = { COMPILER_FLAGS = ""; }; };
+8AF60EB2786B456F8879DE12 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftoutln.h */ = {isa = PBXBuildFile; fileRef = 8D10B2B06E9945A58A310EB7 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftoutln.h */; settings = { COMPILER_FLAGS = ""; }; };
+E252F7D2628A4818A1B98BF0 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftpfr.h */ = {isa = PBXBuildFile; fileRef = F12569D6292549BF9EBC273A /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftpfr.h */; settings = { COMPILER_FLAGS = ""; }; };
+ECDBD6A45F094772893ED078 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftrender.h */ = {isa = PBXBuildFile; fileRef = 2FBF0756B13841E281637934 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftrender.h */; settings = { COMPILER_FLAGS = ""; }; };
+CAEDE38DAAA346CABAA3E5DA /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftsizes.h */ = {isa = PBXBuildFile; fileRef = 6AF04F2B35184912B6AC0303 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftsizes.h */; settings = { COMPILER_FLAGS = ""; }; };
+125DFDD2DBE742ADBAA4B131 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftsnames.h */ = {isa = PBXBuildFile; fileRef = B4428E1010BC4ECE9AFA0555 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftsnames.h */; settings = { COMPILER_FLAGS = ""; }; };
+5DD524CBFC7C4605BED85835 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftstroke.h */ = {isa = PBXBuildFile; fileRef = 6AC1B2A0484140C594B8BCBF /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftstroke.h */; settings = { COMPILER_FLAGS = ""; }; };
+26C57F672A714410AF989DD5 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftsynth.h */ = {isa = PBXBuildFile; fileRef = 9348AE956AC54AD99C84354C /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftsynth.h */; settings = { COMPILER_FLAGS = ""; }; };
+938EAD5B5BD243F0B53CC3C3 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftsystem.h */ = {isa = PBXBuildFile; fileRef = 5E27D0DED6F24E708DFFD054 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftsystem.h */; settings = { COMPILER_FLAGS = ""; }; };
+E098944D5A274E40B44782BB /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/fttrigon.h */ = {isa = PBXBuildFile; fileRef = 13F3F1782CDB40D79E1924B9 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/fttrigon.h */; settings = { COMPILER_FLAGS = ""; }; };
+8FDD9242811F4665915B732C /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/fttypes.h */ = {isa = PBXBuildFile; fileRef = 1D8476766A914D82AFA67647 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/fttypes.h */; settings = { COMPILER_FLAGS = ""; }; };
+65DC7A57F6A54388A8E4F4C3 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftwinfnt.h */ = {isa = PBXBuildFile; fileRef = 1A0BA3A9193C4AA095A5BE4A /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftwinfnt.h */; settings = { COMPILER_FLAGS = ""; }; };
+B13BFDE994234B29B6E42A8B /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftxf86.h */ = {isa = PBXBuildFile; fileRef = D1126F9F28684CC0B1E6C73F /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftxf86.h */; settings = { COMPILER_FLAGS = ""; }; };
+32F44702FD494B449E0FF8E6 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/t1tables.h */ = {isa = PBXBuildFile; fileRef = 53197023C7D54CB6B52AEC2F /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/t1tables.h */; settings = { COMPILER_FLAGS = ""; }; };
+C9B9453489544A7AA98683B1 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ttnameid.h */ = {isa = PBXBuildFile; fileRef = 44007DBF8ED143F78AF8ED1B /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ttnameid.h */; settings = { COMPILER_FLAGS = ""; }; };
+3CDFE342458C4464B4E50D4D /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/tttables.h */ = {isa = PBXBuildFile; fileRef = DF9DB0CB666F4930939D2CBD /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/tttables.h */; settings = { COMPILER_FLAGS = ""; }; };
+7AA665011EA54C15AD66D848 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/tttags.h */ = {isa = PBXBuildFile; fileRef = D4F56325DD9F44FA945128E2 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/tttags.h */; settings = { COMPILER_FLAGS = ""; }; };
+CDF9DE8F26BE44A19A99BE94 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ttunpat.h */ = {isa = PBXBuildFile; fileRef = C2DC6443EA184F53AED5A79C /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ttunpat.h */; settings = { COMPILER_FLAGS = ""; }; };
+F6E43F625A004B8AA4A7DBE8 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/ft2build.h */ = {isa = PBXBuildFile; fileRef = 5AF67975439B4C62A1937D33 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/ft2build.h */; settings = { COMPILER_FLAGS = ""; }; };
+C2EB4A0543B74BD9AE96A1B4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/autofit/autofit.c */ = {isa = PBXBuildFile; fileRef = 25BC7A516C124A3FA7BE5754 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/autofit/autofit.c */; settings = { COMPILER_FLAGS = ""; }; };
+C5D3E10C22A241DF82C3C3DA /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftbase.c */ = {isa = PBXBuildFile; fileRef = 0B9D189DBFFD46ACBDDCA57C /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftbase.c */; settings = { COMPILER_FLAGS = ""; }; };
+F90645CD9D5F4C399B529D17 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftbbox.c */ = {isa = PBXBuildFile; fileRef = F9569E902B554EC99963E156 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftbbox.c */; settings = { COMPILER_FLAGS = ""; }; };
+5B7E750254844114A8D45C2D /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftbitmap.c */ = {isa = PBXBuildFile; fileRef = 69F329EC26824FF1991065D0 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftbitmap.c */; settings = { COMPILER_FLAGS = ""; }; };
+962F936B41A145D9B5708403 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftfstype.c */ = {isa = PBXBuildFile; fileRef = 86F83B62DB84418D9B1FCF76 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftfstype.c */; settings = { COMPILER_FLAGS = ""; }; };
+903F58F42A5A49FFB053A5FF /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftgasp.c */ = {isa = PBXBuildFile; fileRef = E1C37A8ADE4648A5AB339C41 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftgasp.c */; settings = { COMPILER_FLAGS = ""; }; };
+99DCB4CE9357488495C9AEBE /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftglyph.c */ = {isa = PBXBuildFile; fileRef = 161DCE08860047D095F7476E /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftglyph.c */; settings = { COMPILER_FLAGS = ""; }; };
+8BB1DD19CCE84313ACB86768 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftinit.c */ = {isa = PBXBuildFile; fileRef = 5EC1E0A16CD9434AA0990363 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftinit.c */; settings = { COMPILER_FLAGS = ""; }; };
+9BB14E527CD144EEB63FC81E /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftmm.c */ = {isa = PBXBuildFile; fileRef = 4F2EFAEF36EB47F088FCC760 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftmm.c */; settings = { COMPILER_FLAGS = ""; }; };
+73481AF989CD4E18AB206180 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftpfr.c */ = {isa = PBXBuildFile; fileRef = CB551FD503A34CF5B35CCEF1 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftpfr.c */; settings = { COMPILER_FLAGS = ""; }; };
+8DB180E4B3914787BA390C26 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftstroke.c */ = {isa = PBXBuildFile; fileRef = DF06D654AB2240B2AA8E43A1 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftstroke.c */; settings = { COMPILER_FLAGS = ""; }; };
+C3994D1DC52A408D81650EAA /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftsynth.c */ = {isa = PBXBuildFile; fileRef = 1A6CFA06FB6C4ADEAA133518 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftsynth.c */; settings = { COMPILER_FLAGS = ""; }; };
+7592B9252DCE4287978DDB99 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftsystem.c */ = {isa = PBXBuildFile; fileRef = 60A546AB48BC4C359D9B4293 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftsystem.c */; settings = { COMPILER_FLAGS = ""; }; };
+C064CD32D85645E1AE4AD2FD /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/fttype1.c */ = {isa = PBXBuildFile; fileRef = 01D997E843DC4592B04D11F0 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/fttype1.c */; settings = { COMPILER_FLAGS = ""; }; };
+13605F6828104327B7CEAB88 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftwinfnt.c */ = {isa = PBXBuildFile; fileRef = 9015C2D154C14A81BA0FE197 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftwinfnt.c */; settings = { COMPILER_FLAGS = ""; }; };
+2A6B2DD6827F43EB9EED5656 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/bdf/bdf.c */ = {isa = PBXBuildFile; fileRef = 73FD9F65F3904C41A844AA91 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/bdf/bdf.c */; settings = { COMPILER_FLAGS = ""; }; };
+8F37AA02EDB649DD9B7538EB /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/bzip2/ftbzip2.c */ = {isa = PBXBuildFile; fileRef = 4B37665B6CAD4A64A393DB33 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/bzip2/ftbzip2.c */; settings = { COMPILER_FLAGS = ""; }; };
+8BF0147477F34AF7ABE052DA /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/cache/ftcache.c */ = {isa = PBXBuildFile; fileRef = 3E05D9C99CA640A99FE9F9F7 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/cache/ftcache.c */; settings = { COMPILER_FLAGS = ""; }; };
+F150E1C0AA4340DCA8A2287A /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/cff/cff.c */ = {isa = PBXBuildFile; fileRef = 85A7AFCA3229483BBF385446 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/cff/cff.c */; settings = { COMPILER_FLAGS = ""; }; };
+CD42701153C449D384CABFEE /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/cid/type1cid.c */ = {isa = PBXBuildFile; fileRef = 18ACC6FD720847CC853D8B28 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/cid/type1cid.c */; settings = { COMPILER_FLAGS = ""; }; };
+C8B2DFAECD8A4989AD0C2B19 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/gzip/ftgzip.c */ = {isa = PBXBuildFile; fileRef = 7FE20734B2004ED49778C20E /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/gzip/ftgzip.c */; settings = { COMPILER_FLAGS = ""; }; };
+7A2A52E72D07434391FE1F92 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/lzw/ftlzw.c */ = {isa = PBXBuildFile; fileRef = B0ABB66DE79442E89EC6E897 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/lzw/ftlzw.c */; settings = { COMPILER_FLAGS = ""; }; };
+4A6D75844DCF497D87C01001 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/pcf/pcf.c */ = {isa = PBXBuildFile; fileRef = FC5D8743E4AE48AD93F98B8C /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/pcf/pcf.c */; settings = { COMPILER_FLAGS = ""; }; };
+914CEF4553794988865AD5BD /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/pfr/pfr.c */ = {isa = PBXBuildFile; fileRef = D4F16B2982EA44818BCE8178 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/pfr/pfr.c */; settings = { COMPILER_FLAGS = ""; }; };
+9F4B74CD34284580977CFD4A /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/psaux/psaux.c */ = {isa = PBXBuildFile; fileRef = 22D76B879D874B299CC6004A /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/psaux/psaux.c */; settings = { COMPILER_FLAGS = ""; }; };
+CD109C41CC9A40F1A038BF04 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/pshinter/pshinter.c */ = {isa = PBXBuildFile; fileRef = D708F96C4B3D4DC082087AA2 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/pshinter/pshinter.c */; settings = { COMPILER_FLAGS = ""; }; };
+E6E2798B549F471EAF43867D /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/psnames/psmodule.c */ = {isa = PBXBuildFile; fileRef = BC5E5CB25F6A4B1586598BDD /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/psnames/psmodule.c */; settings = { COMPILER_FLAGS = ""; }; };
+273777C86DDE4FF38F8F4237 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/raster/raster.c */ = {isa = PBXBuildFile; fileRef = 741EF17FEA4243928EFDBE5C /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/raster/raster.c */; settings = { COMPILER_FLAGS = ""; }; };
+A18BCBB55D874107A51E7A2D /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/sfnt/sfnt.c */ = {isa = PBXBuildFile; fileRef = 36B7E809D2EC41DB83E4550B /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/sfnt/sfnt.c */; settings = { COMPILER_FLAGS = ""; }; };
+ADF54A024FEA4F05BF04B364 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/smooth/smooth.c */ = {isa = PBXBuildFile; fileRef = CEE5B163F08747A587724752 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/smooth/smooth.c */; settings = { COMPILER_FLAGS = ""; }; };
+49EFB3A4271C4BA0A4F42B65 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/truetype/truetype.c */ = {isa = PBXBuildFile; fileRef = 99026413E96D4402ADD1A2C0 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/truetype/truetype.c */; settings = { COMPILER_FLAGS = ""; }; };
+A98BEDC16E964ABDAEEF0A95 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/type1/type1.c */ = {isa = PBXBuildFile; fileRef = 74C353F0F712450BA1EE3464 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/type1/type1.c */; settings = { COMPILER_FLAGS = ""; }; };
+16E93DEA93D04DF2829CD870 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/type42/type42.c */ = {isa = PBXBuildFile; fileRef = 1D06B66EDC9C434A835FC86E /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/type42/type42.c */; settings = { COMPILER_FLAGS = ""; }; };
+F145EA3F7DE342D7856BE8DE /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/winfonts/winfnt.c */ = {isa = PBXBuildFile; fileRef = CAEEA665EBD143FBAD02AE24 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/winfonts/winfnt.c */; settings = { COMPILER_FLAGS = ""; }; };
+E43235F67A524795BEB96225 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0BBCE17E005C41F69B784197 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              AE900229CBD64C67B3569C08 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              4B0796F0408546F5A1BB2551 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              4068935A95674529B1FD4616 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              E972B88514964FC4B8D8E42A /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              15754D5928844B35A453BE8C /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              1602AF76C70F46EE9E979A15 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 0EC7E24A4D56459C860F9E2B /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = D3404E886AD64511A722380F;
+                     remoteInfo = ZERO_CHECK;
+              };
+              99D734A1B9F149CABB7D1089 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 0EC7E24A4D56459C860F9E2B /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 0C3E8560CC174D3886FF4069;
+                     remoteInfo = freetype;
+              };
+              D8E5E3A4BF2B400F88E4EAA7 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 0EC7E24A4D56459C860F9E2B /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = CCC3CD69D67B48B0BB35518F;
+                     remoteInfo = ALL_BUILD;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+0BBCE17E005C41F69B784197 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+0BF73BCE69F643539E67FFB0 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/config/ftconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftconfig.h"; path = "include/freetype/config/ftconfig.h"; sourceTree = SOURCE_ROOT; };
+3F57950937714391A31AF583 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/config/ftheader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftheader.h"; path = "include/freetype/config/ftheader.h"; sourceTree = SOURCE_ROOT; };
+ACF4349C537C4C17B271728E /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/config/ftmodule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftmodule.h"; path = "include/freetype/config/ftmodule.h"; sourceTree = SOURCE_ROOT; };
+D884A38689E74D76AA719DFF /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/config/ftoption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftoption.h"; path = "include/freetype/config/ftoption.h"; sourceTree = SOURCE_ROOT; };
+0E9450E540CD47A1BE5009C3 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/config/ftstdlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftstdlib.h"; path = "include/freetype/config/ftstdlib.h"; sourceTree = SOURCE_ROOT; };
+3AF78214F7AA4CB2B0B279C9 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/freetype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "freetype.h"; path = "include/freetype/freetype.h"; sourceTree = SOURCE_ROOT; };
+3A8F22E531B34CBA9480AC08 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftadvanc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftadvanc.h"; path = "include/freetype/ftadvanc.h"; sourceTree = SOURCE_ROOT; };
+56DDA3FF88C04C2985F30B96 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftbbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftbbox.h"; path = "include/freetype/ftbbox.h"; sourceTree = SOURCE_ROOT; };
+8EBD47AC3C31463AA830E0E7 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftbdf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftbdf.h"; path = "include/freetype/ftbdf.h"; sourceTree = SOURCE_ROOT; };
+A70D4D8CB2114C779C3F14B8 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftbitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftbitmap.h"; path = "include/freetype/ftbitmap.h"; sourceTree = SOURCE_ROOT; };
+B7B6A57A1FC046EEA179CA00 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftbzip2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftbzip2.h"; path = "include/freetype/ftbzip2.h"; sourceTree = SOURCE_ROOT; };
+30D25487B7724844868F7625 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftcache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftcache.h"; path = "include/freetype/ftcache.h"; sourceTree = SOURCE_ROOT; };
+7C24AB8CB8D64BD2A8FEE4B5 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftchapters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftchapters.h"; path = "include/freetype/ftchapters.h"; sourceTree = SOURCE_ROOT; };
+728A3D78BC0543FD8D65D1DC /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftcid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftcid.h"; path = "include/freetype/ftcid.h"; sourceTree = SOURCE_ROOT; };
+9D52476094C34CC4AFD6DC18 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/fterrdef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "fterrdef.h"; path = "include/freetype/fterrdef.h"; sourceTree = SOURCE_ROOT; };
+5E76E8269B2F44D99CE8F9FD /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/fterrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "fterrors.h"; path = "include/freetype/fterrors.h"; sourceTree = SOURCE_ROOT; };
+DF5C11B90FCF4ED9B2AD269B /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftgasp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftgasp.h"; path = "include/freetype/ftgasp.h"; sourceTree = SOURCE_ROOT; };
+59D76BC21EA04EFD9BC28B45 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftglyph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftglyph.h"; path = "include/freetype/ftglyph.h"; sourceTree = SOURCE_ROOT; };
+7F773F53EAE24B2192AAC6EC /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftgxval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftgxval.h"; path = "include/freetype/ftgxval.h"; sourceTree = SOURCE_ROOT; };
+CFF5ECFA435B438DBDC1FD2A /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftgzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftgzip.h"; path = "include/freetype/ftgzip.h"; sourceTree = SOURCE_ROOT; };
+C364BCD09C7641C3988D612E /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftimage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftimage.h"; path = "include/freetype/ftimage.h"; sourceTree = SOURCE_ROOT; };
+3AD79A01DC1F4C8A9923BA6A /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftincrem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftincrem.h"; path = "include/freetype/ftincrem.h"; sourceTree = SOURCE_ROOT; };
+5F6269879ED24B758AFB3F3D /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftlcdfil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftlcdfil.h"; path = "include/freetype/ftlcdfil.h"; sourceTree = SOURCE_ROOT; };
+DA03AA559A6E45DFBBA0A155 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftlist.h"; path = "include/freetype/ftlist.h"; sourceTree = SOURCE_ROOT; };
+13CCDCA3C7EF4376BCDC3840 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftlzw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftlzw.h"; path = "include/freetype/ftlzw.h"; sourceTree = SOURCE_ROOT; };
+867A205954024FD0A8B0671E /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftmac.h"; path = "include/freetype/ftmac.h"; sourceTree = SOURCE_ROOT; };
+CC4C9CAEF5784FEABBF5B6F1 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftmm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftmm.h"; path = "include/freetype/ftmm.h"; sourceTree = SOURCE_ROOT; };
+8161E8BE229E49AFB5D65791 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftmodapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftmodapi.h"; path = "include/freetype/ftmodapi.h"; sourceTree = SOURCE_ROOT; };
+03F27C4848FE43058DF366F6 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftmoderr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftmoderr.h"; path = "include/freetype/ftmoderr.h"; sourceTree = SOURCE_ROOT; };
+8441140B14B04213A2E77231 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftotval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftotval.h"; path = "include/freetype/ftotval.h"; sourceTree = SOURCE_ROOT; };
+8D10B2B06E9945A58A310EB7 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftoutln.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftoutln.h"; path = "include/freetype/ftoutln.h"; sourceTree = SOURCE_ROOT; };
+F12569D6292549BF9EBC273A /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftpfr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftpfr.h"; path = "include/freetype/ftpfr.h"; sourceTree = SOURCE_ROOT; };
+2FBF0756B13841E281637934 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftrender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftrender.h"; path = "include/freetype/ftrender.h"; sourceTree = SOURCE_ROOT; };
+6AF04F2B35184912B6AC0303 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftsizes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftsizes.h"; path = "include/freetype/ftsizes.h"; sourceTree = SOURCE_ROOT; };
+B4428E1010BC4ECE9AFA0555 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftsnames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftsnames.h"; path = "include/freetype/ftsnames.h"; sourceTree = SOURCE_ROOT; };
+6AC1B2A0484140C594B8BCBF /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftstroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftstroke.h"; path = "include/freetype/ftstroke.h"; sourceTree = SOURCE_ROOT; };
+9348AE956AC54AD99C84354C /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftsynth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftsynth.h"; path = "include/freetype/ftsynth.h"; sourceTree = SOURCE_ROOT; };
+5E27D0DED6F24E708DFFD054 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftsystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftsystem.h"; path = "include/freetype/ftsystem.h"; sourceTree = SOURCE_ROOT; };
+13F3F1782CDB40D79E1924B9 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/fttrigon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "fttrigon.h"; path = "include/freetype/fttrigon.h"; sourceTree = SOURCE_ROOT; };
+1D8476766A914D82AFA67647 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/fttypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "fttypes.h"; path = "include/freetype/fttypes.h"; sourceTree = SOURCE_ROOT; };
+1A0BA3A9193C4AA095A5BE4A /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftwinfnt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftwinfnt.h"; path = "include/freetype/ftwinfnt.h"; sourceTree = SOURCE_ROOT; };
+D1126F9F28684CC0B1E6C73F /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftxf86.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ftxf86.h"; path = "include/freetype/ftxf86.h"; sourceTree = SOURCE_ROOT; };
+53197023C7D54CB6B52AEC2F /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/t1tables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "t1tables.h"; path = "include/freetype/t1tables.h"; sourceTree = SOURCE_ROOT; };
+44007DBF8ED143F78AF8ED1B /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ttnameid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ttnameid.h"; path = "include/freetype/ttnameid.h"; sourceTree = SOURCE_ROOT; };
+DF9DB0CB666F4930939D2CBD /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/tttables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "tttables.h"; path = "include/freetype/tttables.h"; sourceTree = SOURCE_ROOT; };
+D4F56325DD9F44FA945128E2 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/tttags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "tttags.h"; path = "include/freetype/tttags.h"; sourceTree = SOURCE_ROOT; };
+C2DC6443EA184F53AED5A79C /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ttunpat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ttunpat.h"; path = "include/freetype/ttunpat.h"; sourceTree = SOURCE_ROOT; };
+5AF67975439B4C62A1937D33 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/ft2build.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ft2build.h"; path = "include/ft2build.h"; sourceTree = SOURCE_ROOT; };
+25BC7A516C124A3FA7BE5754 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/autofit/autofit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "autofit.c"; path = "src/autofit/autofit.c"; sourceTree = SOURCE_ROOT; };
+0B9D189DBFFD46ACBDDCA57C /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftbase.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "ftbase.c"; path = "src/base/ftbase.c"; sourceTree = SOURCE_ROOT; };
+F9569E902B554EC99963E156 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftbbox.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "ftbbox.c"; path = "src/base/ftbbox.c"; sourceTree = SOURCE_ROOT; };
+69F329EC26824FF1991065D0 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftbitmap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "ftbitmap.c"; path = "src/base/ftbitmap.c"; sourceTree = SOURCE_ROOT; };
+86F83B62DB84418D9B1FCF76 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftfstype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "ftfstype.c"; path = "src/base/ftfstype.c"; sourceTree = SOURCE_ROOT; };
+E1C37A8ADE4648A5AB339C41 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftgasp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "ftgasp.c"; path = "src/base/ftgasp.c"; sourceTree = SOURCE_ROOT; };
+161DCE08860047D095F7476E /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftglyph.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "ftglyph.c"; path = "src/base/ftglyph.c"; sourceTree = SOURCE_ROOT; };
+5EC1E0A16CD9434AA0990363 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftinit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "ftinit.c"; path = "src/base/ftinit.c"; sourceTree = SOURCE_ROOT; };
+4F2EFAEF36EB47F088FCC760 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftmm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "ftmm.c"; path = "src/base/ftmm.c"; sourceTree = SOURCE_ROOT; };
+CB551FD503A34CF5B35CCEF1 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftpfr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "ftpfr.c"; path = "src/base/ftpfr.c"; sourceTree = SOURCE_ROOT; };
+DF06D654AB2240B2AA8E43A1 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftstroke.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "ftstroke.c"; path = "src/base/ftstroke.c"; sourceTree = SOURCE_ROOT; };
+1A6CFA06FB6C4ADEAA133518 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftsynth.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "ftsynth.c"; path = "src/base/ftsynth.c"; sourceTree = SOURCE_ROOT; };
+60A546AB48BC4C359D9B4293 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftsystem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "ftsystem.c"; path = "src/base/ftsystem.c"; sourceTree = SOURCE_ROOT; };
+01D997E843DC4592B04D11F0 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/fttype1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "fttype1.c"; path = "src/base/fttype1.c"; sourceTree = SOURCE_ROOT; };
+9015C2D154C14A81BA0FE197 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftwinfnt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "ftwinfnt.c"; path = "src/base/ftwinfnt.c"; sourceTree = SOURCE_ROOT; };
+73FD9F65F3904C41A844AA91 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/bdf/bdf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "bdf.c"; path = "src/bdf/bdf.c"; sourceTree = SOURCE_ROOT; };
+4B37665B6CAD4A64A393DB33 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/bzip2/ftbzip2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "ftbzip2.c"; path = "src/bzip2/ftbzip2.c"; sourceTree = SOURCE_ROOT; };
+3E05D9C99CA640A99FE9F9F7 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/cache/ftcache.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "ftcache.c"; path = "src/cache/ftcache.c"; sourceTree = SOURCE_ROOT; };
+85A7AFCA3229483BBF385446 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/cff/cff.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "cff.c"; path = "src/cff/cff.c"; sourceTree = SOURCE_ROOT; };
+18ACC6FD720847CC853D8B28 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/cid/type1cid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "type1cid.c"; path = "src/cid/type1cid.c"; sourceTree = SOURCE_ROOT; };
+7FE20734B2004ED49778C20E /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/gzip/ftgzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "ftgzip.c"; path = "src/gzip/ftgzip.c"; sourceTree = SOURCE_ROOT; };
+B0ABB66DE79442E89EC6E897 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/lzw/ftlzw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "ftlzw.c"; path = "src/lzw/ftlzw.c"; sourceTree = SOURCE_ROOT; };
+FC5D8743E4AE48AD93F98B8C /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/pcf/pcf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "pcf.c"; path = "src/pcf/pcf.c"; sourceTree = SOURCE_ROOT; };
+D4F16B2982EA44818BCE8178 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/pfr/pfr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "pfr.c"; path = "src/pfr/pfr.c"; sourceTree = SOURCE_ROOT; };
+22D76B879D874B299CC6004A /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/psaux/psaux.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "psaux.c"; path = "src/psaux/psaux.c"; sourceTree = SOURCE_ROOT; };
+D708F96C4B3D4DC082087AA2 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/pshinter/pshinter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "pshinter.c"; path = "src/pshinter/pshinter.c"; sourceTree = SOURCE_ROOT; };
+BC5E5CB25F6A4B1586598BDD /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/psnames/psmodule.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "psmodule.c"; path = "src/psnames/psmodule.c"; sourceTree = SOURCE_ROOT; };
+741EF17FEA4243928EFDBE5C /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/raster/raster.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "raster.c"; path = "src/raster/raster.c"; sourceTree = SOURCE_ROOT; };
+36B7E809D2EC41DB83E4550B /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/sfnt/sfnt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "sfnt.c"; path = "src/sfnt/sfnt.c"; sourceTree = SOURCE_ROOT; };
+CEE5B163F08747A587724752 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/smooth/smooth.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "smooth.c"; path = "src/smooth/smooth.c"; sourceTree = SOURCE_ROOT; };
+99026413E96D4402ADD1A2C0 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/truetype/truetype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "truetype.c"; path = "src/truetype/truetype.c"; sourceTree = SOURCE_ROOT; };
+74C353F0F712450BA1EE3464 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/type1/type1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "type1.c"; path = "src/type1/type1.c"; sourceTree = SOURCE_ROOT; };
+1D06B66EDC9C434A835FC86E /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/type42/type42.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "type42.c"; path = "src/type42/type42.c"; sourceTree = SOURCE_ROOT; };
+CAEEA665EBD143FBAD02AE24 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/winfonts/winfnt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "winfnt.c"; path = "src/winfonts/winfnt.c"; sourceTree = SOURCE_ROOT; };
+727EE1EDC1F14EA398B0AF65 /* freetype */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libfreetype.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              E2AE9AAC78B64D8B860B7A2E  = {
+                     isa = PBXGroup;
+                     children = (
+                            58B2E4F772CD4BB09C74AD8D /* Sources */,
+                            254C4DFC05214C63A57FF6E9 /* Resources */,
+                            D338A4DE82444C28A25E0046 /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              58B2E4F772CD4BB09C74AD8D /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            8902AB67194D46DBACDE4765 /* ALL_BUILD */,
+                            DED223F4BAE2425880C3343D /* ZERO_CHECK */,
+                            74AC63B0F1BD443EA112E28D /* freetype */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              254C4DFC05214C63A57FF6E9 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              8902AB67194D46DBACDE4765 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            3FEFC459D31B45FAB33D2EEF /* CMake Rules */,
+                            0BBCE17E005C41F69B784197 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              3FEFC459D31B45FAB33D2EEF /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              DED223F4BAE2425880C3343D /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            DFC3AEA9915E487D9B342947 /* CMake Rules */,
+                            0BBCE17E005C41F69B784197 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              DFC3AEA9915E487D9B342947 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              74AC63B0F1BD443EA112E28D /* freetype */ = {
+                     isa = PBXGroup;
+                     children = (
+                            BD82DD9B05F746C88DB79A11 /* Header Files */,
+                            8870F7A7769E4835A34FC934 /* Source Files */,
+                            0BBCE17E005C41F69B784197 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/CMakeLists.txt */,
+                     );
+                     name = freetype;
+                     sourceTree = "<group>";
+              };
+              BD82DD9B05F746C88DB79A11 /* Header Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            0BF73BCE69F643539E67FFB0 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/config/ftconfig.h */,
+                            3F57950937714391A31AF583 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/config/ftheader.h */,
+                            ACF4349C537C4C17B271728E /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/config/ftmodule.h */,
+                            D884A38689E74D76AA719DFF /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/config/ftoption.h */,
+                            0E9450E540CD47A1BE5009C3 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/config/ftstdlib.h */,
+                            3AF78214F7AA4CB2B0B279C9 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/freetype.h */,
+                            3A8F22E531B34CBA9480AC08 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftadvanc.h */,
+                            56DDA3FF88C04C2985F30B96 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftbbox.h */,
+                            8EBD47AC3C31463AA830E0E7 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftbdf.h */,
+                            A70D4D8CB2114C779C3F14B8 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftbitmap.h */,
+                            B7B6A57A1FC046EEA179CA00 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftbzip2.h */,
+                            30D25487B7724844868F7625 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftcache.h */,
+                            7C24AB8CB8D64BD2A8FEE4B5 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftchapters.h */,
+                            728A3D78BC0543FD8D65D1DC /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftcid.h */,
+                            9D52476094C34CC4AFD6DC18 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/fterrdef.h */,
+                            5E76E8269B2F44D99CE8F9FD /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/fterrors.h */,
+                            DF5C11B90FCF4ED9B2AD269B /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftgasp.h */,
+                            59D76BC21EA04EFD9BC28B45 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftglyph.h */,
+                            7F773F53EAE24B2192AAC6EC /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftgxval.h */,
+                            CFF5ECFA435B438DBDC1FD2A /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftgzip.h */,
+                            C364BCD09C7641C3988D612E /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftimage.h */,
+                            3AD79A01DC1F4C8A9923BA6A /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftincrem.h */,
+                            5F6269879ED24B758AFB3F3D /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftlcdfil.h */,
+                            DA03AA559A6E45DFBBA0A155 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftlist.h */,
+                            13CCDCA3C7EF4376BCDC3840 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftlzw.h */,
+                            867A205954024FD0A8B0671E /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftmac.h */,
+                            CC4C9CAEF5784FEABBF5B6F1 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftmm.h */,
+                            8161E8BE229E49AFB5D65791 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftmodapi.h */,
+                            03F27C4848FE43058DF366F6 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftmoderr.h */,
+                            8441140B14B04213A2E77231 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftotval.h */,
+                            8D10B2B06E9945A58A310EB7 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftoutln.h */,
+                            F12569D6292549BF9EBC273A /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftpfr.h */,
+                            2FBF0756B13841E281637934 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftrender.h */,
+                            6AF04F2B35184912B6AC0303 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftsizes.h */,
+                            B4428E1010BC4ECE9AFA0555 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftsnames.h */,
+                            6AC1B2A0484140C594B8BCBF /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftstroke.h */,
+                            9348AE956AC54AD99C84354C /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftsynth.h */,
+                            5E27D0DED6F24E708DFFD054 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftsystem.h */,
+                            13F3F1782CDB40D79E1924B9 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/fttrigon.h */,
+                            1D8476766A914D82AFA67647 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/fttypes.h */,
+                            1A0BA3A9193C4AA095A5BE4A /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftwinfnt.h */,
+                            D1126F9F28684CC0B1E6C73F /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ftxf86.h */,
+                            53197023C7D54CB6B52AEC2F /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/t1tables.h */,
+                            44007DBF8ED143F78AF8ED1B /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ttnameid.h */,
+                            DF9DB0CB666F4930939D2CBD /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/tttables.h */,
+                            D4F56325DD9F44FA945128E2 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/tttags.h */,
+                            C2DC6443EA184F53AED5A79C /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/freetype/ttunpat.h */,
+                            5AF67975439B4C62A1937D33 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include/ft2build.h */,
+                     );
+                     name = "Header Files";
+                     sourceTree = "<group>";
+              };
+              8870F7A7769E4835A34FC934 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            25BC7A516C124A3FA7BE5754 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/autofit/autofit.c */,
+                            0B9D189DBFFD46ACBDDCA57C /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftbase.c */,
+                            F9569E902B554EC99963E156 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftbbox.c */,
+                            69F329EC26824FF1991065D0 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftbitmap.c */,
+                            86F83B62DB84418D9B1FCF76 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftfstype.c */,
+                            E1C37A8ADE4648A5AB339C41 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftgasp.c */,
+                            161DCE08860047D095F7476E /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftglyph.c */,
+                            5EC1E0A16CD9434AA0990363 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftinit.c */,
+                            4F2EFAEF36EB47F088FCC760 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftmm.c */,
+                            CB551FD503A34CF5B35CCEF1 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftpfr.c */,
+                            DF06D654AB2240B2AA8E43A1 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftstroke.c */,
+                            1A6CFA06FB6C4ADEAA133518 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftsynth.c */,
+                            60A546AB48BC4C359D9B4293 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftsystem.c */,
+                            01D997E843DC4592B04D11F0 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/fttype1.c */,
+                            9015C2D154C14A81BA0FE197 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftwinfnt.c */,
+                            73FD9F65F3904C41A844AA91 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/bdf/bdf.c */,
+                            4B37665B6CAD4A64A393DB33 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/bzip2/ftbzip2.c */,
+                            3E05D9C99CA640A99FE9F9F7 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/cache/ftcache.c */,
+                            85A7AFCA3229483BBF385446 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/cff/cff.c */,
+                            18ACC6FD720847CC853D8B28 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/cid/type1cid.c */,
+                            7FE20734B2004ED49778C20E /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/gzip/ftgzip.c */,
+                            B0ABB66DE79442E89EC6E897 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/lzw/ftlzw.c */,
+                            FC5D8743E4AE48AD93F98B8C /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/pcf/pcf.c */,
+                            D4F16B2982EA44818BCE8178 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/pfr/pfr.c */,
+                            22D76B879D874B299CC6004A /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/psaux/psaux.c */,
+                            D708F96C4B3D4DC082087AA2 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/pshinter/pshinter.c */,
+                            BC5E5CB25F6A4B1586598BDD /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/psnames/psmodule.c */,
+                            741EF17FEA4243928EFDBE5C /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/raster/raster.c */,
+                            36B7E809D2EC41DB83E4550B /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/sfnt/sfnt.c */,
+                            CEE5B163F08747A587724752 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/smooth/smooth.c */,
+                            99026413E96D4402ADD1A2C0 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/truetype/truetype.c */,
+                            74C353F0F712450BA1EE3464 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/type1/type1.c */,
+                            1D06B66EDC9C434A835FC86E /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/type42/type42.c */,
+                            CAEEA665EBD143FBAD02AE24 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/winfonts/winfnt.c */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              D338A4DE82444C28A25E0046 /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            727EE1EDC1F14EA398B0AF65 /* freetype */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              0C3E8560CC174D3886FF4069 /* freetype */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = B82B71D3194F450792D6F72D /* Build configuration list for PBXNativeTarget "freetype" */;
+                     buildPhases = (
+                            1041946EEFB24FF2BFD9D381 /* Sources */,
+                            ADB872A9BA4C44C1A0635672 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            A4CE5C3F7CE9413CB6185BDA /* PBXTargetDependency */,
+                     );
+                     name = freetype;
+                     productName = freetype;
+                     productReference = 727EE1EDC1F14EA398B0AF65 /* freetype */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              0EC7E24A4D56459C860F9E2B /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 5284939046334826B4B961FC /* Build configuration list for PBXProject  "freetype" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            4B0796F0408546F5A1BB2551 /* Debug */,
+                            4068935A95674529B1FD4616 /* Release */,
+                            E972B88514964FC4B8D8E42A /* MinSizeRel */,
+                            15754D5928844B35A453BE8C /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = E2AE9AAC78B64D8B860B7A2E;
+                     projectDirPath = /Users/rongji/Work/u2project_deps/ogredeps/src/freetype;
+                     projectRoot = "";
+                     targets = (
+                            CCC3CD69D67B48B0BB35518F /* ALL_BUILD */,
+                            D3404E886AD64511A722380F /* ZERO_CHECK */,
+                            0C3E8560CC174D3886FF4069 /* freetype */,
+                            6A1F1235DC7741F9ABA865CC /* install */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              BE9DD42FEB194412855D50DE /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              AEA5B880C0AC430889D01DBF /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/rongji/Work/u2project_deps/ogredeps_mac/src/freetype -f /Users/rongji/Work/u2project_deps/ogredeps_mac/src/freetype/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              6B68DC2F437B4D2198E29FB8 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              15E28E941497458C913ED651 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/rongji/Work/u2project_deps/ogredeps_mac/src/freetype -f /Users/rongji/Work/u2project_deps/ogredeps_mac/src/freetype/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              ADB872A9BA4C44C1A0635672 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/rongji/Work/u2project_deps/ogredeps_mac/src/freetype -f /Users/rongji/Work/u2project_deps/ogredeps_mac/src/freetype/CMakeScripts/freetype_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              9C7D1362DBE24FA5A5A5B129 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              65A07FE7816340DC938F4560 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/rongji/Work/u2project_deps/ogredeps_mac/src/freetype -f /Users/rongji/Work/u2project_deps/ogredeps_mac/src/freetype/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              1041946EEFB24FF2BFD9D381 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            C2EB4A0543B74BD9AE96A1B4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/autofit/autofit.c */,
+                            C5D3E10C22A241DF82C3C3DA /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftbase.c */,
+                            F90645CD9D5F4C399B529D17 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftbbox.c */,
+                            5B7E750254844114A8D45C2D /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftbitmap.c */,
+                            962F936B41A145D9B5708403 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftfstype.c */,
+                            903F58F42A5A49FFB053A5FF /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftgasp.c */,
+                            99DCB4CE9357488495C9AEBE /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftglyph.c */,
+                            8BB1DD19CCE84313ACB86768 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftinit.c */,
+                            9BB14E527CD144EEB63FC81E /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftmm.c */,
+                            73481AF989CD4E18AB206180 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftpfr.c */,
+                            8DB180E4B3914787BA390C26 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftstroke.c */,
+                            C3994D1DC52A408D81650EAA /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftsynth.c */,
+                            7592B9252DCE4287978DDB99 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftsystem.c */,
+                            C064CD32D85645E1AE4AD2FD /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/fttype1.c */,
+                            13605F6828104327B7CEAB88 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/base/ftwinfnt.c */,
+                            2A6B2DD6827F43EB9EED5656 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/bdf/bdf.c */,
+                            8F37AA02EDB649DD9B7538EB /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/bzip2/ftbzip2.c */,
+                            8BF0147477F34AF7ABE052DA /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/cache/ftcache.c */,
+                            F150E1C0AA4340DCA8A2287A /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/cff/cff.c */,
+                            CD42701153C449D384CABFEE /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/cid/type1cid.c */,
+                            C8B2DFAECD8A4989AD0C2B19 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/gzip/ftgzip.c */,
+                            7A2A52E72D07434391FE1F92 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/lzw/ftlzw.c */,
+                            4A6D75844DCF497D87C01001 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/pcf/pcf.c */,
+                            914CEF4553794988865AD5BD /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/pfr/pfr.c */,
+                            9F4B74CD34284580977CFD4A /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/psaux/psaux.c */,
+                            CD109C41CC9A40F1A038BF04 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/pshinter/pshinter.c */,
+                            E6E2798B549F471EAF43867D /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/psnames/psmodule.c */,
+                            273777C86DDE4FF38F8F4237 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/raster/raster.c */,
+                            A18BCBB55D874107A51E7A2D /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/sfnt/sfnt.c */,
+                            ADF54A024FEA4F05BF04B364 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/smooth/smooth.c */,
+                            49EFB3A4271C4BA0A4F42B65 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/truetype/truetype.c */,
+                            A98BEDC16E964ABDAEEF0A95 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/type1/type1.c */,
+                            16E93DEA93D04DF2829CD870 /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/type42/type42.c */,
+                            F145EA3F7DE342D7856BE8DE /* /Users/rongji/Work/u2project_deps/ogredeps/src/freetype/src/winfonts/winfnt.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              A4CE5C3F7CE9413CB6185BDA /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = D3404E886AD64511A722380F /* ZERO_CHECK */;
+                     targetProxy = 1602AF76C70F46EE9E979A15 /* PBXContainerItemProxy */;
+              };
+              6EAD14651DDC441FBEF25263 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 0C3E8560CC174D3886FF4069 /* freetype */;
+                     targetProxy = 99D734A1B9F149CABB7D1089 /* PBXContainerItemProxy */;
+              };
+              90A1C61F7B7D4C34B1469B21 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = CCC3CD69D67B48B0BB35518F /* ALL_BUILD */;
+                     targetProxy = D8E5E3A4BF2B400F88E4EAA7 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              0FC4C4A46FAA41BBB3133961 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            MACOSX_DEPLOYMENT_TARGET = "10.6";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/freetype/build;
+                     };
+                     name = Debug;
+              };
+              BE36118EDD7E4D2BBA0E2BF0 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            MACOSX_DEPLOYMENT_TARGET = "10.6";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/freetype/build;
+                     };
+                     name = Release;
+              };
+              3208CF13312D418A9C416F79 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            MACOSX_DEPLOYMENT_TARGET = "10.6";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/freetype/build;
+                     };
+                     name = MinSizeRel;
+              };
+              088033778C7E4C75BB387F9A /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            MACOSX_DEPLOYMENT_TARGET = "10.6";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/freetype/build;
+                     };
+                     name = RelWithDebInfo;
+              };
+              1C005B40030349B3BA9C776A /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", FT2_BUILD_LIBRARY, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/freetype;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              EDA7DC70D34548859E242E2C /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", FT2_BUILD_LIBRARY, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/freetype;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              81F1B75BFDB0494F896F7321 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", FT2_BUILD_LIBRARY, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/freetype;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              CE389DAEEEF84FEFBFE2BAD8 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", FT2_BUILD_LIBRARY, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/freetype;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              464D31BEB3C84325B10338A9 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", FT2_BUILD_LIBRARY, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/freetype;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              3CBCD8B99EE44E6BA2DFEF20 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", FT2_BUILD_LIBRARY, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/freetype;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              494325C556EC4638A57E5A9A /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", FT2_BUILD_LIBRARY, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/freetype;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              2F494377F1BF4F29BE7E20E6 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", FT2_BUILD_LIBRARY, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/freetype;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              9432C3A0B97047F7A2A4E70E /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", FT2_BUILD_LIBRARY, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "    ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = freetype;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/freetype;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              B91D6E5D62B641518A9747D8 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", FT2_BUILD_LIBRARY, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = freetype;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/freetype;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              21D0E587BB9148ADA03A96C1 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", FT2_BUILD_LIBRARY, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = freetype;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/freetype;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              4D11B93B8DA145BE98E299EB /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", FT2_BUILD_LIBRARY, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = freetype;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/freetype;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              EA4A608AE65A442895E99F5F /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", FT2_BUILD_LIBRARY, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/freetype;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              421720C6517E410BAA7EBDE7 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", FT2_BUILD_LIBRARY, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/freetype;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              A380324F7E2A406F800B117B /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", FT2_BUILD_LIBRARY, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/freetype;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              9B9C6250C75E4309A00423A2 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", FT2_BUILD_LIBRARY, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/freetype/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/freetype;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              5284939046334826B4B961FC /* Build configuration list for PBXProject  "freetype" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            0FC4C4A46FAA41BBB3133961 /* Debug */,
+                            BE36118EDD7E4D2BBA0E2BF0 /* Release */,
+                            3208CF13312D418A9C416F79 /* MinSizeRel */,
+                            088033778C7E4C75BB387F9A /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              91842B0D764A4D1F9842E5B0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            1C005B40030349B3BA9C776A /* Debug */,
+                            EDA7DC70D34548859E242E2C /* Release */,
+                            81F1B75BFDB0494F896F7321 /* MinSizeRel */,
+                            CE389DAEEEF84FEFBFE2BAD8 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              D74D6EB048D244E08585C3C2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            464D31BEB3C84325B10338A9 /* Debug */,
+                            3CBCD8B99EE44E6BA2DFEF20 /* Release */,
+                            494325C556EC4638A57E5A9A /* MinSizeRel */,
+                            2F494377F1BF4F29BE7E20E6 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              B82B71D3194F450792D6F72D /* Build configuration list for PBXNativeTarget "freetype" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            9432C3A0B97047F7A2A4E70E /* Debug */,
+                            B91D6E5D62B641518A9747D8 /* Release */,
+                            21D0E587BB9148ADA03A96C1 /* MinSizeRel */,
+                            4D11B93B8DA145BE98E299EB /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              220D345DF7994F2ABE4A5783 /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            EA4A608AE65A442895E99F5F /* Debug */,
+                            421720C6517E410BAA7EBDE7 /* Release */,
+                            A380324F7E2A406F800B117B /* MinSizeRel */,
+                            9B9C6250C75E4309A00423A2 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 0EC7E24A4D56459C860F9E2B;
+}

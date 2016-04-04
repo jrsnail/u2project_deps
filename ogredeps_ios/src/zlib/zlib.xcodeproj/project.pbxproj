@@ -1,0 +1,916 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              08586522DA204D71BCF87CF3 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = A58341EB2CDB464E941232C9 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            D07108F3DEC145C1ADFE3FE9 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            AC062FE0ADF64F1195BD4B6E /* PBXTargetDependency */,
+                            1E64698A138C498590AEA847 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              BFA999217A5941D192B7BCB0 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 74B7B6C256AE4B58A9140924 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            0D33B52F5E8F4EB88A74723A /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              1638520ADEE94C57AB12CC1F /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = A26CA9C244AC49CE8FE3CB28 /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            038A06E9E973491DA3507061 /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            ED1275078C2E4004988D6BE1 /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+B230EF481E044221B1CB8F78 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/adler32.c */ = {isa = PBXBuildFile; fileRef = 21F5313E21394A7C884A794F /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/adler32.c */; settings = { COMPILER_FLAGS = ""; }; };
+D2B9ED2031D4485EAD24B66D /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/compress.c */ = {isa = PBXBuildFile; fileRef = 7F683FD6FEAC44AEB309D896 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/compress.c */; settings = { COMPILER_FLAGS = ""; }; };
+12DEDF6073D04DE7BB0C6461 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/crc32.c */ = {isa = PBXBuildFile; fileRef = A8AD5C2715C44E3F825A5184 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/crc32.c */; settings = { COMPILER_FLAGS = ""; }; };
+6DDEF780A75347F2A8044AA3 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/crc32.h */ = {isa = PBXBuildFile; fileRef = 5E767776712F464A8E96BCEE /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/crc32.h */; settings = { COMPILER_FLAGS = ""; }; };
+4BB53FB0998B4F378D6B6B3F /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/deflate.c */ = {isa = PBXBuildFile; fileRef = 209681DC11B249CCA5F32CB1 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/deflate.c */; settings = { COMPILER_FLAGS = ""; }; };
+7BA9D9D44AEE42A68F345640 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/deflate.h */ = {isa = PBXBuildFile; fileRef = 9C8EAD2F05404AE6AE700476 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/deflate.h */; settings = { COMPILER_FLAGS = ""; }; };
+BB310B33B81A445CB95399E0 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/gzclose.c */ = {isa = PBXBuildFile; fileRef = 5D187E3ECE524FA19BAF42A9 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/gzclose.c */; settings = { COMPILER_FLAGS = ""; }; };
+186651F460DF424E877A4910 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/gzguts.h */ = {isa = PBXBuildFile; fileRef = 048ED165901E4213869E7241 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/gzguts.h */; settings = { COMPILER_FLAGS = ""; }; };
+0FC6E35B975C42C8BFCA66F6 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/gzlib.c */ = {isa = PBXBuildFile; fileRef = 504B1FC178704878B21FF59C /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/gzlib.c */; settings = { COMPILER_FLAGS = ""; }; };
+AA9B4DF29B984FD4856B4E64 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/gzread.c */ = {isa = PBXBuildFile; fileRef = 87BBDDEA8FBD4372B24CB4B3 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/gzread.c */; settings = { COMPILER_FLAGS = ""; }; };
+D853244F60F443788AF9DA87 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/gzwrite.c */ = {isa = PBXBuildFile; fileRef = 0D15DFA994B744179CB93630 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/gzwrite.c */; settings = { COMPILER_FLAGS = ""; }; };
+06D849CB78E448548B5715F6 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/infback.c */ = {isa = PBXBuildFile; fileRef = A24CD98AD49D4A26802781A6 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/infback.c */; settings = { COMPILER_FLAGS = ""; }; };
+22F8C9C214754C0C9812A0ED /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/inffast.c */ = {isa = PBXBuildFile; fileRef = 95418977127B47D195A0D228 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/inffast.c */; settings = { COMPILER_FLAGS = ""; }; };
+C60956EFB55B487BA9509580 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/inffast.h */ = {isa = PBXBuildFile; fileRef = 166E9B6F4CFB4EB386E8246B /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/inffast.h */; settings = { COMPILER_FLAGS = ""; }; };
+2E261018D67442D49E51069E /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/inffixed.h */ = {isa = PBXBuildFile; fileRef = 6DF17E13B9F74439BFD82CD2 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/inffixed.h */; settings = { COMPILER_FLAGS = ""; }; };
+DE2C23A4E19143E39DC502A3 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/inflate.c */ = {isa = PBXBuildFile; fileRef = E397A5EC51A94BDAA5011B05 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/inflate.c */; settings = { COMPILER_FLAGS = ""; }; };
+16F5F30ED1694217A0AF6898 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/inflate.h */ = {isa = PBXBuildFile; fileRef = 56EA462EE3254C2EA909CEDC /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/inflate.h */; settings = { COMPILER_FLAGS = ""; }; };
+6B841CC9ECD747C18A8706AB /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/inftrees.c */ = {isa = PBXBuildFile; fileRef = DE923CAD9179413B91D6679E /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/inftrees.c */; settings = { COMPILER_FLAGS = ""; }; };
+C89A07F861104632BBBD30EA /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/inftrees.h */ = {isa = PBXBuildFile; fileRef = ABFABFBB2B0F43558BAF5E66 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/inftrees.h */; settings = { COMPILER_FLAGS = ""; }; };
+0D4D698F234041DD9A549856 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/trees.c */ = {isa = PBXBuildFile; fileRef = 9B734E510266453887B49F74 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/trees.c */; settings = { COMPILER_FLAGS = ""; }; };
+CBFC792BF8BA4F55A952BED6 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/trees.h */ = {isa = PBXBuildFile; fileRef = F3E884D84F454B49B12C5AFA /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/trees.h */; settings = { COMPILER_FLAGS = ""; }; };
+EB60C19A562841BEA70502BC /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/uncompr.c */ = {isa = PBXBuildFile; fileRef = 2678484077C641619ABA6847 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/uncompr.c */; settings = { COMPILER_FLAGS = ""; }; };
+C1C33AD5AB2E4C0692F7A106 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/zconf.h */ = {isa = PBXBuildFile; fileRef = 4C4A880E1914460E8C668634 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/zconf.h */; settings = { COMPILER_FLAGS = ""; }; };
+F7F20A723D464A28A627F80D /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/zlib.h */ = {isa = PBXBuildFile; fileRef = 1CC0D8FC53444BCA9FAA93EB /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/zlib.h */; settings = { COMPILER_FLAGS = ""; }; };
+3A90CF51716C4C549F26C811 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/zutil.c */ = {isa = PBXBuildFile; fileRef = D673A1C9C0134EA4AEE6EF62 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/zutil.c */; settings = { COMPILER_FLAGS = ""; }; };
+36D0021111EC439CA2120DEB /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/zutil.h */ = {isa = PBXBuildFile; fileRef = F94C19055C214D92A2D19DB3 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/zutil.h */; settings = { COMPILER_FLAGS = ""; }; };
+FDE268B3E42F4749AA9121A8 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 081CA9DEBCC74D3EB4B17EE0 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              D216ECAE4D8F416EB4B993B0 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              B41BF74A7399478EBA6CA6A5 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              05D01E56B6C34DAEA8B995F5 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              3B5FC5EF0A4540D08FD0BF7F /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              BC196EED2EDE44C1A2715373 /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              21C2FC3677A04DEC9E5986EC /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = FF812CC8907E4349B65ABF23 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = E7AAAB2D03734B20B425B3D4;
+                     remoteInfo = zlib;
+              };
+              0EDA3EF1E11A4A2892C93A64 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = FF812CC8907E4349B65ABF23 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = BFA999217A5941D192B7BCB0;
+                     remoteInfo = ZERO_CHECK;
+              };
+              A1D9DAEDFA8A4DAF950E00A7 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = FF812CC8907E4349B65ABF23 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 08586522DA204D71BCF87CF3;
+                     remoteInfo = ALL_BUILD;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+081CA9DEBCC74D3EB4B17EE0 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+21F5313E21394A7C884A794F /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/adler32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "adler32.c"; path = "adler32.c"; sourceTree = SOURCE_ROOT; };
+7F683FD6FEAC44AEB309D896 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "compress.c"; path = "compress.c"; sourceTree = SOURCE_ROOT; };
+A8AD5C2715C44E3F825A5184 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/crc32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "crc32.c"; path = "crc32.c"; sourceTree = SOURCE_ROOT; };
+5E767776712F464A8E96BCEE /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/crc32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "crc32.h"; path = "crc32.h"; sourceTree = SOURCE_ROOT; };
+209681DC11B249CCA5F32CB1 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/deflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "deflate.c"; path = "deflate.c"; sourceTree = SOURCE_ROOT; };
+9C8EAD2F05404AE6AE700476 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/deflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "deflate.h"; path = "deflate.h"; sourceTree = SOURCE_ROOT; };
+5D187E3ECE524FA19BAF42A9 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/gzclose.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "gzclose.c"; path = "gzclose.c"; sourceTree = SOURCE_ROOT; };
+048ED165901E4213869E7241 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/gzguts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "gzguts.h"; path = "gzguts.h"; sourceTree = SOURCE_ROOT; };
+504B1FC178704878B21FF59C /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/gzlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "gzlib.c"; path = "gzlib.c"; sourceTree = SOURCE_ROOT; };
+87BBDDEA8FBD4372B24CB4B3 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/gzread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "gzread.c"; path = "gzread.c"; sourceTree = SOURCE_ROOT; };
+0D15DFA994B744179CB93630 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/gzwrite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "gzwrite.c"; path = "gzwrite.c"; sourceTree = SOURCE_ROOT; };
+A24CD98AD49D4A26802781A6 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/infback.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "infback.c"; path = "infback.c"; sourceTree = SOURCE_ROOT; };
+95418977127B47D195A0D228 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/inffast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "inffast.c"; path = "inffast.c"; sourceTree = SOURCE_ROOT; };
+166E9B6F4CFB4EB386E8246B /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/inffast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "inffast.h"; path = "inffast.h"; sourceTree = SOURCE_ROOT; };
+6DF17E13B9F74439BFD82CD2 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/inffixed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "inffixed.h"; path = "inffixed.h"; sourceTree = SOURCE_ROOT; };
+E397A5EC51A94BDAA5011B05 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/inflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "inflate.c"; path = "inflate.c"; sourceTree = SOURCE_ROOT; };
+56EA462EE3254C2EA909CEDC /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/inflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "inflate.h"; path = "inflate.h"; sourceTree = SOURCE_ROOT; };
+DE923CAD9179413B91D6679E /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/inftrees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "inftrees.c"; path = "inftrees.c"; sourceTree = SOURCE_ROOT; };
+ABFABFBB2B0F43558BAF5E66 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/inftrees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "inftrees.h"; path = "inftrees.h"; sourceTree = SOURCE_ROOT; };
+9B734E510266453887B49F74 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/trees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "trees.c"; path = "trees.c"; sourceTree = SOURCE_ROOT; };
+F3E884D84F454B49B12C5AFA /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/trees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "trees.h"; path = "trees.h"; sourceTree = SOURCE_ROOT; };
+2678484077C641619ABA6847 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/uncompr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "uncompr.c"; path = "uncompr.c"; sourceTree = SOURCE_ROOT; };
+4C4A880E1914460E8C668634 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/zconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "zconf.h"; path = "zconf.h"; sourceTree = SOURCE_ROOT; };
+1CC0D8FC53444BCA9FAA93EB /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/zlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "zlib.h"; path = "zlib.h"; sourceTree = SOURCE_ROOT; };
+D673A1C9C0134EA4AEE6EF62 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/zutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "zutil.c"; path = "zutil.c"; sourceTree = SOURCE_ROOT; };
+F94C19055C214D92A2D19DB3 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/zutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "zutil.h"; path = "zutil.h"; sourceTree = SOURCE_ROOT; };
+5F6A0E22FDC4435A8A445854 /* zlib */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libzlib.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              82FB7EBAA0544DA1BF4C0089  = {
+                     isa = PBXGroup;
+                     children = (
+                            B77F9A1300E245D4B3EFBFC2 /* Sources */,
+                            D5888622C7D942DCAC207303 /* Resources */,
+                            E3735BB0989648EB80AEA2E8 /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              B77F9A1300E245D4B3EFBFC2 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            B3DAA254B7E3402D96E63556 /* ALL_BUILD */,
+                            F1C7553328B545CA8A05A04B /* ZERO_CHECK */,
+                            1E8012CCABB449A69E687C61 /* zlib */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              D5888622C7D942DCAC207303 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              B3DAA254B7E3402D96E63556 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            4A9E0139959342199F84AE8E /* CMake Rules */,
+                            081CA9DEBCC74D3EB4B17EE0 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              4A9E0139959342199F84AE8E /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              F1C7553328B545CA8A05A04B /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            B87A326C7B3D40A887D180E2 /* CMake Rules */,
+                            081CA9DEBCC74D3EB4B17EE0 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              B87A326C7B3D40A887D180E2 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              1E8012CCABB449A69E687C61 /* zlib */ = {
+                     isa = PBXGroup;
+                     children = (
+                            08E1BE7431A9443EB892B68E /* Source Files */,
+                            52D06A58405F405BBAAAC989 /* Header Files */,
+                            081CA9DEBCC74D3EB4B17EE0 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/CMakeLists.txt */,
+                     );
+                     name = zlib;
+                     sourceTree = "<group>";
+              };
+              08E1BE7431A9443EB892B68E /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            21F5313E21394A7C884A794F /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/adler32.c */,
+                            7F683FD6FEAC44AEB309D896 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/compress.c */,
+                            A8AD5C2715C44E3F825A5184 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/crc32.c */,
+                            209681DC11B249CCA5F32CB1 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/deflate.c */,
+                            5D187E3ECE524FA19BAF42A9 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/gzclose.c */,
+                            504B1FC178704878B21FF59C /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/gzlib.c */,
+                            87BBDDEA8FBD4372B24CB4B3 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/gzread.c */,
+                            0D15DFA994B744179CB93630 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/gzwrite.c */,
+                            A24CD98AD49D4A26802781A6 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/infback.c */,
+                            95418977127B47D195A0D228 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/inffast.c */,
+                            E397A5EC51A94BDAA5011B05 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/inflate.c */,
+                            DE923CAD9179413B91D6679E /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/inftrees.c */,
+                            9B734E510266453887B49F74 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/trees.c */,
+                            2678484077C641619ABA6847 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/uncompr.c */,
+                            D673A1C9C0134EA4AEE6EF62 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/zutil.c */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              52D06A58405F405BBAAAC989 /* Header Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            5E767776712F464A8E96BCEE /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/crc32.h */,
+                            9C8EAD2F05404AE6AE700476 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/deflate.h */,
+                            048ED165901E4213869E7241 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/gzguts.h */,
+                            166E9B6F4CFB4EB386E8246B /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/inffast.h */,
+                            6DF17E13B9F74439BFD82CD2 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/inffixed.h */,
+                            56EA462EE3254C2EA909CEDC /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/inflate.h */,
+                            ABFABFBB2B0F43558BAF5E66 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/inftrees.h */,
+                            F3E884D84F454B49B12C5AFA /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/trees.h */,
+                            4C4A880E1914460E8C668634 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/zconf.h */,
+                            1CC0D8FC53444BCA9FAA93EB /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/zlib.h */,
+                            F94C19055C214D92A2D19DB3 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/zutil.h */,
+                     );
+                     name = "Header Files";
+                     sourceTree = "<group>";
+              };
+              E3735BB0989648EB80AEA2E8 /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            5F6A0E22FDC4435A8A445854 /* zlib */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              E7AAAB2D03734B20B425B3D4 /* zlib */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = CA37F051482F408A8BF32348 /* Build configuration list for PBXNativeTarget "zlib" */;
+                     buildPhases = (
+                            1202ACB4ABF24BB19F2E1A5B /* Sources */,
+                            755D978B9157466EAEA2FF78 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            1E64698A138C498590AEA847 /* PBXTargetDependency */,
+                     );
+                     name = zlib;
+                     productName = zlib;
+                     productReference = 5F6A0E22FDC4435A8A445854 /* zlib */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              FF812CC8907E4349B65ABF23 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 861A7A76B39E457F8EBBBDE6 /* Build configuration list for PBXProject  "zlib" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            B41BF74A7399478EBA6CA6A5 /* Debug */,
+                            05D01E56B6C34DAEA8B995F5 /* Release */,
+                            3B5FC5EF0A4540D08FD0BF7F /* MinSizeRel */,
+                            BC196EED2EDE44C1A2715373 /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 82FB7EBAA0544DA1BF4C0089;
+                     projectDirPath = /Users/rongji/Work/u2project_deps/ogredeps/src/zlib;
+                     projectRoot = "";
+                     targets = (
+                            08586522DA204D71BCF87CF3 /* ALL_BUILD */,
+                            BFA999217A5941D192B7BCB0 /* ZERO_CHECK */,
+                            1638520ADEE94C57AB12CC1F /* install */,
+                            E7AAAB2D03734B20B425B3D4 /* zlib */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              94FB9ECC5A7C4D6F826A8A6E /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              D07108F3DEC145C1ADFE3FE9 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/rongji/Work/u2project_deps/ogredeps_ios/src/zlib -f /Users/rongji/Work/u2project_deps/ogredeps_ios/src/zlib/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              227884480DB640B9AEDA4FCC /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              0D33B52F5E8F4EB88A74723A /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/rongji/Work/u2project_deps/ogredeps_ios/src/zlib -f /Users/rongji/Work/u2project_deps/ogredeps_ios/src/zlib/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              9F7348996AFE41E4B3C44D27 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              038A06E9E973491DA3507061 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/rongji/Work/u2project_deps/ogredeps_ios/src/zlib -f /Users/rongji/Work/u2project_deps/ogredeps_ios/src/zlib/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              755D978B9157466EAEA2FF78 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/rongji/Work/u2project_deps/ogredeps_ios/src/zlib -f /Users/rongji/Work/u2project_deps/ogredeps_ios/src/zlib/CMakeScripts/zlib_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              1202ACB4ABF24BB19F2E1A5B /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            B230EF481E044221B1CB8F78 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/adler32.c */,
+                            D2B9ED2031D4485EAD24B66D /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/compress.c */,
+                            12DEDF6073D04DE7BB0C6461 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/crc32.c */,
+                            4BB53FB0998B4F378D6B6B3F /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/deflate.c */,
+                            BB310B33B81A445CB95399E0 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/gzclose.c */,
+                            0FC6E35B975C42C8BFCA66F6 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/gzlib.c */,
+                            AA9B4DF29B984FD4856B4E64 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/gzread.c */,
+                            D853244F60F443788AF9DA87 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/gzwrite.c */,
+                            06D849CB78E448548B5715F6 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/infback.c */,
+                            22F8C9C214754C0C9812A0ED /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/inffast.c */,
+                            DE2C23A4E19143E39DC502A3 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/inflate.c */,
+                            6B841CC9ECD747C18A8706AB /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/inftrees.c */,
+                            0D4D698F234041DD9A549856 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/trees.c */,
+                            EB60C19A562841BEA70502BC /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/uncompr.c */,
+                            3A90CF51716C4C549F26C811 /* /Users/rongji/Work/u2project_deps/ogredeps/src/zlib/zutil.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              AC062FE0ADF64F1195BD4B6E /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = E7AAAB2D03734B20B425B3D4 /* zlib */;
+                     targetProxy = 21C2FC3677A04DEC9E5986EC /* PBXContainerItemProxy */;
+              };
+              1E64698A138C498590AEA847 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = BFA999217A5941D192B7BCB0 /* ZERO_CHECK */;
+                     targetProxy = 0EDA3EF1E11A4A2892C93A64 /* PBXContainerItemProxy */;
+              };
+              ED1275078C2E4004988D6BE1 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 08586522DA204D71BCF87CF3 /* ALL_BUILD */;
+                     targetProxy = A1D9DAEDFA8A4DAF950E00A7 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              297D1FCCC4C14EBDB8186678 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = iphoneos;
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/zlib/build;
+                     };
+                     name = Debug;
+              };
+              38130DE1658946DE8499AD43 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = iphoneos;
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/zlib/build;
+                     };
+                     name = Release;
+              };
+              E7B04161BBD3427F86862D5E /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = iphoneos;
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/zlib/build;
+                     };
+                     name = MinSizeRel;
+              };
+              3083A5CB94284DFDA29C8D1B /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = iphoneos;
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/zlib/build;
+                     };
+                     name = RelWithDebInfo;
+              };
+              50458A799F1C4F1F8EB09327 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/zlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              E485816B16254BB19AB3B749 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/zlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              5AF4DE96CE7E459D97764EC2 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/zlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              993ABFD3312D4BE3AE3E6655 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/zlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              74CAF986E0E8491F895831AE /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/zlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              663D247B48A74CBC993EFDEF /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/zlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              7C4C2BC10DBF46C9A752DDC4 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/zlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              9C4EE1E0340748C3B9435A98 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/zlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              43544A61A5D448C5BCA9133E /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/zlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              8D192FAB7509454DB5CBC99C /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/zlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              2166FBA20BE44152948D5EA1 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/zlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              99CBF9B3595D436C88280228 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/zlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              B310B560E8D0490EACD6618F /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            GCC_THUMB_SUPPORT = NO;
+                            INSTALL_PATH = "";
+                            IPHONEOS_DEPLOYMENT_TARGET = "5.0";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "    ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = zlib;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/zlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              BE5136BC3F724134BCA728D5 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            GCC_THUMB_SUPPORT = NO;
+                            INSTALL_PATH = "";
+                            IPHONEOS_DEPLOYMENT_TARGET = "5.0";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = zlib;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/zlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              C057841C5FFA4614B024F36F /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            GCC_THUMB_SUPPORT = NO;
+                            INSTALL_PATH = "";
+                            IPHONEOS_DEPLOYMENT_TARGET = "5.0";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = zlib;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/zlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              80CD4B45F4E049ECB68B2390 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            GCC_THUMB_SUPPORT = NO;
+                            INSTALL_PATH = "";
+                            IPHONEOS_DEPLOYMENT_TARGET = "5.0";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = zlib;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/zlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              861A7A76B39E457F8EBBBDE6 /* Build configuration list for PBXProject  "zlib" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            297D1FCCC4C14EBDB8186678 /* Debug */,
+                            38130DE1658946DE8499AD43 /* Release */,
+                            E7B04161BBD3427F86862D5E /* MinSizeRel */,
+                            3083A5CB94284DFDA29C8D1B /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              A58341EB2CDB464E941232C9 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            50458A799F1C4F1F8EB09327 /* Debug */,
+                            E485816B16254BB19AB3B749 /* Release */,
+                            5AF4DE96CE7E459D97764EC2 /* MinSizeRel */,
+                            993ABFD3312D4BE3AE3E6655 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              74B7B6C256AE4B58A9140924 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            74CAF986E0E8491F895831AE /* Debug */,
+                            663D247B48A74CBC993EFDEF /* Release */,
+                            7C4C2BC10DBF46C9A752DDC4 /* MinSizeRel */,
+                            9C4EE1E0340748C3B9435A98 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              A26CA9C244AC49CE8FE3CB28 /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            43544A61A5D448C5BCA9133E /* Debug */,
+                            8D192FAB7509454DB5CBC99C /* Release */,
+                            2166FBA20BE44152948D5EA1 /* MinSizeRel */,
+                            99CBF9B3595D436C88280228 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              CA37F051482F408A8BF32348 /* Build configuration list for PBXNativeTarget "zlib" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            B310B560E8D0490EACD6618F /* Debug */,
+                            BE5136BC3F724134BCA728D5 /* Release */,
+                            C057841C5FFA4614B024F36F /* MinSizeRel */,
+                            80CD4B45F4E049ECB68B2390 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = FF812CC8907E4349B65ABF23;
+}

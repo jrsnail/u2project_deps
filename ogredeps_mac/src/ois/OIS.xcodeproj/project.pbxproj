@@ -1,0 +1,996 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              CCC3CD69D67B48B0BB35518F /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = D7B7C9B3553A4DAE83DDCC1E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            3C923790D078407EAFF80B02 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            F44E5C2BE8DD4B02AE242506 /* PBXTargetDependency */,
+                            E8DE6E736FB14E5B8CA47CE7 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              D3404E886AD64511A722380F /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = F004A37D5DCA47389A2B400A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            E9013C4FBBF344D880FABA09 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              6A1F1235DC7741F9ABA865CC /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = C1CAF50A4EEC4C7A95C460D5 /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            9B07E2DCB63543598267CA3E /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            8B18CEEA96A24A18BF040A5E /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+4BD47450DFE845609F066312 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISConfig.h */ = {isa = PBXBuildFile; fileRef = B81EA7B3B66E405F83C208BE /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISConfig.h */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+7785296463DB4B9A8762A79C /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISEffect.h */ = {isa = PBXBuildFile; fileRef = 1B3A6C2935414F9B9FF7695D /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISEffect.h */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+D0A38E219BB9498EA8D3B238 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISEvents.h */ = {isa = PBXBuildFile; fileRef = F62CF3F8331046B5811B1E2B /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISEvents.h */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+58176A08079040A1AE2F4B0F /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISException.h */ = {isa = PBXBuildFile; fileRef = 5977D8DBADF94B05AEBE5034 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISException.h */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+D18EC9F507724B5994A80FB2 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISFactoryCreator.h */ = {isa = PBXBuildFile; fileRef = E92A0E80578C42E48E936247 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISFactoryCreator.h */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+44C6523C15CB4830BBD4E06B /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISForceFeedback.h */ = {isa = PBXBuildFile; fileRef = 80EC1C77A1994514B94961D9 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISForceFeedback.h */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+8AB0548C5AD248EDA58ED5D0 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OIS.h */ = {isa = PBXBuildFile; fileRef = 4E9E6818418C42CF9A72DA3E /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OIS.h */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+FEBA072EBC7A4F0A893C8EC3 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISInputManager.h */ = {isa = PBXBuildFile; fileRef = 30BD774F32F7457A8E0F52A1 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISInputManager.h */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+11C0F9C5A2D440E48CD42759 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISInterface.h */ = {isa = PBXBuildFile; fileRef = 46C00147D50C4CAFBEBF2AA3 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISInterface.h */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+BBCB7CEF2DFE45B58CF2C6A4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISJoyStick.h */ = {isa = PBXBuildFile; fileRef = 37908C06F9F243D29942D762 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISJoyStick.h */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+D6FAFA3661C94ED3B136FCC7 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISKeyboard.h */ = {isa = PBXBuildFile; fileRef = E3D96C846FAE41BF98463651 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISKeyboard.h */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+2A78978587DD4E6BB3D629F4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISMouse.h */ = {isa = PBXBuildFile; fileRef = 74F74CD9C03B490AB0BFB548 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISMouse.h */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+83944FD590484065961CD015 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISMultiTouch.h */ = {isa = PBXBuildFile; fileRef = 349D11D934804569AAE95BD4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISMultiTouch.h */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+01E58DCB4E3D42C3A2004E52 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISObject.h */ = {isa = PBXBuildFile; fileRef = 9B9B21F41B56477A9AC2B7D7 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISObject.h */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+3F4366B1151F441C8A74D3BE /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISPrereqs.h */ = {isa = PBXBuildFile; fileRef = C119FE9587E943209B3D0776 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISPrereqs.h */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+C4885E94055C4B81BCA656DB /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISEffect.cpp */ = {isa = PBXBuildFile; fileRef = A40DAB67282A4CE187F4A079 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISEffect.cpp */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+0CBCE545EF284722B95E1C31 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISException.cpp */ = {isa = PBXBuildFile; fileRef = D3DFB88C43014B73B8FC2C3F /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISException.cpp */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+8CAFA99818F348C7A7B2E5A6 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISForceFeedback.cpp */ = {isa = PBXBuildFile; fileRef = C99A0E1917844AD8B6F5D7D7 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISForceFeedback.cpp */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+A5D473E7D9174415ACFA6BB3 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISInputManager.cpp */ = {isa = PBXBuildFile; fileRef = E1CF434E786C423E8CECC383 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISInputManager.cpp */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+A9F5D018A9AE43A7A0522581 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISJoyStick.cpp */ = {isa = PBXBuildFile; fileRef = 5C650E2B0170419BA1471E1A /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISJoyStick.cpp */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+9EB5525923A7498DB10B46DC /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISKeyboard.cpp */ = {isa = PBXBuildFile; fileRef = 3D92AB717F8E4D859633C1C0 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISKeyboard.cpp */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+7A73383AAE104DE893F7401A /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISObject.cpp */ = {isa = PBXBuildFile; fileRef = DB97C9E451A444F39A8196E3 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISObject.cpp */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+E286FE2DBFEE4C12956F1BF1 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/extras/LIRC/OISLIRC.cpp */ = {isa = PBXBuildFile; fileRef = 8DDFC1EF343E4F8B81D91436 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/extras/LIRC/OISLIRC.cpp */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+B545551E9BF44F71970B2FFA /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/extras/LIRC/OISLIRCFactoryCreator.cpp */ = {isa = PBXBuildFile; fileRef = 80993A26669B4666A7DC104A /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/extras/LIRC/OISLIRCFactoryCreator.cpp */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+D6F503F9799C4E88B70BAAF9 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/CocoaInputManager.h */ = {isa = PBXBuildFile; fileRef = 3D00BCEE1D1C4A5E8398DA06 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/CocoaInputManager.h */; settings = { COMPILER_FLAGS = ""; }; };
+1E4350BB354542858FB99B44 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/CocoaJoyStick.h */ = {isa = PBXBuildFile; fileRef = 79B45E6B53894756A85EDCE4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/CocoaJoyStick.h */; settings = { COMPILER_FLAGS = ""; }; };
+4B80C5927EAA47DCACA6884B /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/CocoaKeyBoard.h */ = {isa = PBXBuildFile; fileRef = 474AB38398454029BA158ED9 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/CocoaKeyBoard.h */; settings = { COMPILER_FLAGS = ""; }; };
+573509580ACB445F932BFF9E /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/CocoaMouse.h */ = {isa = PBXBuildFile; fileRef = 6EEE2549AEBB4FEE954F5A83 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/CocoaMouse.h */; settings = { COMPILER_FLAGS = ""; }; };
+E658066E5D4F434995001F60 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/CocoaHelpers.h */ = {isa = PBXBuildFile; fileRef = A02A8B764C704A1A8A70968B /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/CocoaHelpers.h */; settings = { COMPILER_FLAGS = ""; }; };
+127F4FFA5CCE46EDB10AFC5A /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/MacHelpers.h */ = {isa = PBXBuildFile; fileRef = 60F03C364F9542CFBCF77BE9 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/MacHelpers.h */; settings = { COMPILER_FLAGS = ""; }; };
+C73F9F3EF671479294E3E4E9 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/MacHIDManager.h */ = {isa = PBXBuildFile; fileRef = 865C9B4FA4534649A15C50B4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/MacHIDManager.h */; settings = { COMPILER_FLAGS = ""; }; };
+D87128C6395E47BB94FC777C /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/MacInputManager.h */ = {isa = PBXBuildFile; fileRef = CD7A86177951495CAECA2A54 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/MacInputManager.h */; settings = { COMPILER_FLAGS = ""; }; };
+6F4565810029451CBB476325 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/MacJoyStick.h */ = {isa = PBXBuildFile; fileRef = 7D50478D59164BE48BD28A42 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/MacJoyStick.h */; settings = { COMPILER_FLAGS = ""; }; };
+39B55FF8ED2F4F9B94807155 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/MacKeyboard.h */ = {isa = PBXBuildFile; fileRef = D387FF99E7ED4B04B1E73683 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/MacKeyboard.h */; settings = { COMPILER_FLAGS = ""; }; };
+646EA94897CD45C0B8FCAC25 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/MacMouse.h */ = {isa = PBXBuildFile; fileRef = 6EAD5E0A329F4E3997553A42 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/MacMouse.h */; settings = { COMPILER_FLAGS = ""; }; };
+2C3912041E6A450F900F1883 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/MacPrereqs.h */ = {isa = PBXBuildFile; fileRef = 843FDEEAA84744ABB6B84E97 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/MacPrereqs.h */; settings = { COMPILER_FLAGS = ""; }; };
+D7BB8BA642004740BD9D2F1A /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/CocoaInputManager.mm */ = {isa = PBXBuildFile; fileRef = 4F68BA9B3D634659906A3F77 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/CocoaInputManager.mm */; settings = { COMPILER_FLAGS = ""; }; };
+474F884E2DA0410FABC98BB5 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/CocoaJoyStick.mm */ = {isa = PBXBuildFile; fileRef = 00D14A5D9B9844C98C11A3F5 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/CocoaJoyStick.mm */; settings = { COMPILER_FLAGS = ""; }; };
+948A8C5396EE4C2A899A8DDC /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/CocoaKeyBoard.mm */ = {isa = PBXBuildFile; fileRef = 04DCD7BDE0F7467A9FEEA8A1 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/CocoaKeyBoard.mm */; settings = { COMPILER_FLAGS = ""; }; };
+8C5191BE51A54351AD6318CC /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/CocoaMouse.mm */ = {isa = PBXBuildFile; fileRef = 01B6D08C19C64E2987595C14 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/CocoaMouse.mm */; settings = { COMPILER_FLAGS = ""; }; };
+9F4626EACF474FD7961DD45A /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/MacHelpers.cpp */ = {isa = PBXBuildFile; fileRef = 7C1B761B2C794BA1B428D725 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/MacHelpers.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+857A41F034FC4B3C981DEAAF /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/MacHIDManager.cpp */ = {isa = PBXBuildFile; fileRef = 44899993B3A1478DB635AA59 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/MacHIDManager.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+E72DD08D377546C6B8659D6E /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/MacInputManager.cpp */ = {isa = PBXBuildFile; fileRef = 5E035AFC27E1464AB32018A4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/MacInputManager.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+53C3CCE710644B1DA586F665 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/MacJoyStick.cpp */ = {isa = PBXBuildFile; fileRef = 326588F13A8A45B591893A33 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/MacJoyStick.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+97E07AE7277E49EFB291C055 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/MacKeyboard.cpp */ = {isa = PBXBuildFile; fileRef = E2DB3BC6C4A846B495EF600E /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/MacKeyboard.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+DD972D8758854F29BD1D9994 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/MacMouse.cpp */ = {isa = PBXBuildFile; fileRef = 32EC1F1B161C41EDA5F8F73C /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/MacMouse.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+217B139B214B4B14A5C95BB1 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 77F05D24ADE94E9B8C6D7E88 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              05DC9DB2081343B4AEE5B213 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              380CE4A659D64CC7A1CF9B62 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              C21FB81586714EF497EE11E0 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              FD314DE844854726AE6ABD37 /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              14080628E052467B9B58F894 /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              3B48F7B9BBE64CA18A0A7F63 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = A2FD9C5366CA4A3291591714 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = D3404E886AD64511A722380F;
+                     remoteInfo = ZERO_CHECK;
+              };
+              6C2FCC20CC2A48DF85498283 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = A2FD9C5366CA4A3291591714 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 6A898B266F6B4F06B6B7BC59;
+                     remoteInfo = OIS;
+              };
+              8520AF36274444FF812BF94A /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = A2FD9C5366CA4A3291591714 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = CCC3CD69D67B48B0BB35518F;
+                     remoteInfo = ALL_BUILD;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+77F05D24ADE94E9B8C6D7E88 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+B81EA7B3B66E405F83C208BE /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "OISConfig.h"; path = "includes/OISConfig.h"; sourceTree = SOURCE_ROOT; };
+1B3A6C2935414F9B9FF7695D /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "OISEffect.h"; path = "includes/OISEffect.h"; sourceTree = SOURCE_ROOT; };
+F62CF3F8331046B5811B1E2B /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "OISEvents.h"; path = "includes/OISEvents.h"; sourceTree = SOURCE_ROOT; };
+5977D8DBADF94B05AEBE5034 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "OISException.h"; path = "includes/OISException.h"; sourceTree = SOURCE_ROOT; };
+E92A0E80578C42E48E936247 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISFactoryCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "OISFactoryCreator.h"; path = "includes/OISFactoryCreator.h"; sourceTree = SOURCE_ROOT; };
+80EC1C77A1994514B94961D9 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISForceFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "OISForceFeedback.h"; path = "includes/OISForceFeedback.h"; sourceTree = SOURCE_ROOT; };
+4E9E6818418C42CF9A72DA3E /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OIS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "OIS.h"; path = "includes/OIS.h"; sourceTree = SOURCE_ROOT; };
+30BD774F32F7457A8E0F52A1 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISInputManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "OISInputManager.h"; path = "includes/OISInputManager.h"; sourceTree = SOURCE_ROOT; };
+46C00147D50C4CAFBEBF2AA3 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "OISInterface.h"; path = "includes/OISInterface.h"; sourceTree = SOURCE_ROOT; };
+37908C06F9F243D29942D762 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISJoyStick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "OISJoyStick.h"; path = "includes/OISJoyStick.h"; sourceTree = SOURCE_ROOT; };
+E3D96C846FAE41BF98463651 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "OISKeyboard.h"; path = "includes/OISKeyboard.h"; sourceTree = SOURCE_ROOT; };
+74F74CD9C03B490AB0BFB548 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISMouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "OISMouse.h"; path = "includes/OISMouse.h"; sourceTree = SOURCE_ROOT; };
+349D11D934804569AAE95BD4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISMultiTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "OISMultiTouch.h"; path = "includes/OISMultiTouch.h"; sourceTree = SOURCE_ROOT; };
+9B9B21F41B56477A9AC2B7D7 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "OISObject.h"; path = "includes/OISObject.h"; sourceTree = SOURCE_ROOT; };
+C119FE9587E943209B3D0776 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISPrereqs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "OISPrereqs.h"; path = "includes/OISPrereqs.h"; sourceTree = SOURCE_ROOT; };
+A40DAB67282A4CE187F4A079 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISEffect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "OISEffect.cpp"; path = "src/OISEffect.cpp"; sourceTree = SOURCE_ROOT; };
+D3DFB88C43014B73B8FC2C3F /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "OISException.cpp"; path = "src/OISException.cpp"; sourceTree = SOURCE_ROOT; };
+C99A0E1917844AD8B6F5D7D7 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISForceFeedback.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "OISForceFeedback.cpp"; path = "src/OISForceFeedback.cpp"; sourceTree = SOURCE_ROOT; };
+E1CF434E786C423E8CECC383 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISInputManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "OISInputManager.cpp"; path = "src/OISInputManager.cpp"; sourceTree = SOURCE_ROOT; };
+5C650E2B0170419BA1471E1A /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISJoyStick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "OISJoyStick.cpp"; path = "src/OISJoyStick.cpp"; sourceTree = SOURCE_ROOT; };
+3D92AB717F8E4D859633C1C0 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISKeyboard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "OISKeyboard.cpp"; path = "src/OISKeyboard.cpp"; sourceTree = SOURCE_ROOT; };
+DB97C9E451A444F39A8196E3 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "OISObject.cpp"; path = "src/OISObject.cpp"; sourceTree = SOURCE_ROOT; };
+8DDFC1EF343E4F8B81D91436 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/extras/LIRC/OISLIRC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "OISLIRC.cpp"; path = "src/extras/LIRC/OISLIRC.cpp"; sourceTree = SOURCE_ROOT; };
+80993A26669B4666A7DC104A /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/extras/LIRC/OISLIRCFactoryCreator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "OISLIRCFactoryCreator.cpp"; path = "src/extras/LIRC/OISLIRCFactoryCreator.cpp"; sourceTree = SOURCE_ROOT; };
+3D00BCEE1D1C4A5E8398DA06 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/CocoaInputManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "CocoaInputManager.h"; path = "includes/mac/CocoaInputManager.h"; sourceTree = SOURCE_ROOT; };
+79B45E6B53894756A85EDCE4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/CocoaJoyStick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "CocoaJoyStick.h"; path = "includes/mac/CocoaJoyStick.h"; sourceTree = SOURCE_ROOT; };
+474AB38398454029BA158ED9 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/CocoaKeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "CocoaKeyBoard.h"; path = "includes/mac/CocoaKeyBoard.h"; sourceTree = SOURCE_ROOT; };
+6EEE2549AEBB4FEE954F5A83 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/CocoaMouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "CocoaMouse.h"; path = "includes/mac/CocoaMouse.h"; sourceTree = SOURCE_ROOT; };
+A02A8B764C704A1A8A70968B /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/CocoaHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "CocoaHelpers.h"; path = "includes/mac/CocoaHelpers.h"; sourceTree = SOURCE_ROOT; };
+60F03C364F9542CFBCF77BE9 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/MacHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "MacHelpers.h"; path = "includes/mac/MacHelpers.h"; sourceTree = SOURCE_ROOT; };
+865C9B4FA4534649A15C50B4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/MacHIDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "MacHIDManager.h"; path = "includes/mac/MacHIDManager.h"; sourceTree = SOURCE_ROOT; };
+CD7A86177951495CAECA2A54 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/MacInputManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "MacInputManager.h"; path = "includes/mac/MacInputManager.h"; sourceTree = SOURCE_ROOT; };
+7D50478D59164BE48BD28A42 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/MacJoyStick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "MacJoyStick.h"; path = "includes/mac/MacJoyStick.h"; sourceTree = SOURCE_ROOT; };
+D387FF99E7ED4B04B1E73683 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/MacKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "MacKeyboard.h"; path = "includes/mac/MacKeyboard.h"; sourceTree = SOURCE_ROOT; };
+6EAD5E0A329F4E3997553A42 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/MacMouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "MacMouse.h"; path = "includes/mac/MacMouse.h"; sourceTree = SOURCE_ROOT; };
+843FDEEAA84744ABB6B84E97 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/MacPrereqs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "MacPrereqs.h"; path = "includes/mac/MacPrereqs.h"; sourceTree = SOURCE_ROOT; };
+4F68BA9B3D634659906A3F77 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/CocoaInputManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.objcpp"; name = "CocoaInputManager.mm"; path = "src/mac/CocoaInputManager.mm"; sourceTree = SOURCE_ROOT; };
+00D14A5D9B9844C98C11A3F5 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/CocoaJoyStick.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.objcpp"; name = "CocoaJoyStick.mm"; path = "src/mac/CocoaJoyStick.mm"; sourceTree = SOURCE_ROOT; };
+04DCD7BDE0F7467A9FEEA8A1 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/CocoaKeyBoard.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.objcpp"; name = "CocoaKeyBoard.mm"; path = "src/mac/CocoaKeyBoard.mm"; sourceTree = SOURCE_ROOT; };
+01B6D08C19C64E2987595C14 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/CocoaMouse.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.objcpp"; name = "CocoaMouse.mm"; path = "src/mac/CocoaMouse.mm"; sourceTree = SOURCE_ROOT; };
+7C1B761B2C794BA1B428D725 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/MacHelpers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "MacHelpers.cpp"; path = "src/mac/MacHelpers.cpp"; sourceTree = SOURCE_ROOT; };
+44899993B3A1478DB635AA59 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/MacHIDManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "MacHIDManager.cpp"; path = "src/mac/MacHIDManager.cpp"; sourceTree = SOURCE_ROOT; };
+5E035AFC27E1464AB32018A4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/MacInputManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "MacInputManager.cpp"; path = "src/mac/MacInputManager.cpp"; sourceTree = SOURCE_ROOT; };
+326588F13A8A45B591893A33 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/MacJoyStick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "MacJoyStick.cpp"; path = "src/mac/MacJoyStick.cpp"; sourceTree = SOURCE_ROOT; };
+E2DB3BC6C4A846B495EF600E /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/MacKeyboard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "MacKeyboard.cpp"; path = "src/mac/MacKeyboard.cpp"; sourceTree = SOURCE_ROOT; };
+32EC1F1B161C41EDA5F8F73C /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/MacMouse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "MacMouse.cpp"; path = "src/mac/MacMouse.cpp"; sourceTree = SOURCE_ROOT; };
+A629453B13F8425FB4FD6679 /* OIS */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libOIS.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              7CCD5D0B78A142B7BB8EFE0C  = {
+                     isa = PBXGroup;
+                     children = (
+                            D117FED673254670A2C3EB0F /* Sources */,
+                            E99E3CBF37194B6FB1707F9C /* Resources */,
+                            46AF948511594E2EAEC583CD /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              D117FED673254670A2C3EB0F /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            E73E17FC3AA242489A578666 /* ALL_BUILD */,
+                            1192C6E88F064BE291CAD808 /* OIS */,
+                            0760B51975C34959BF945E77 /* ZERO_CHECK */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              E99E3CBF37194B6FB1707F9C /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              E73E17FC3AA242489A578666 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            55DFCC4DFC7C4F13954BFD2F /* CMake Rules */,
+                            77F05D24ADE94E9B8C6D7E88 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              55DFCC4DFC7C4F13954BFD2F /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              1192C6E88F064BE291CAD808 /* OIS */ = {
+                     isa = PBXGroup;
+                     children = (
+                            7F24A71ACCA44F30BC69E2E2 /* Header Files */,
+                            745CCE7FDF374631BB8D50D7 /* Source Files */,
+                            77F05D24ADE94E9B8C6D7E88 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/CMakeLists.txt */,
+                     );
+                     name = OIS;
+                     sourceTree = "<group>";
+              };
+              7F24A71ACCA44F30BC69E2E2 /* Header Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            B81EA7B3B66E405F83C208BE /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISConfig.h */,
+                            1B3A6C2935414F9B9FF7695D /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISEffect.h */,
+                            F62CF3F8331046B5811B1E2B /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISEvents.h */,
+                            5977D8DBADF94B05AEBE5034 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISException.h */,
+                            E92A0E80578C42E48E936247 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISFactoryCreator.h */,
+                            80EC1C77A1994514B94961D9 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISForceFeedback.h */,
+                            4E9E6818418C42CF9A72DA3E /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OIS.h */,
+                            30BD774F32F7457A8E0F52A1 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISInputManager.h */,
+                            46C00147D50C4CAFBEBF2AA3 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISInterface.h */,
+                            37908C06F9F243D29942D762 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISJoyStick.h */,
+                            E3D96C846FAE41BF98463651 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISKeyboard.h */,
+                            74F74CD9C03B490AB0BFB548 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISMouse.h */,
+                            349D11D934804569AAE95BD4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISMultiTouch.h */,
+                            9B9B21F41B56477A9AC2B7D7 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISObject.h */,
+                            C119FE9587E943209B3D0776 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISPrereqs.h */,
+                            3D00BCEE1D1C4A5E8398DA06 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/CocoaInputManager.h */,
+                            79B45E6B53894756A85EDCE4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/CocoaJoyStick.h */,
+                            474AB38398454029BA158ED9 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/CocoaKeyBoard.h */,
+                            6EEE2549AEBB4FEE954F5A83 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/CocoaMouse.h */,
+                            A02A8B764C704A1A8A70968B /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/CocoaHelpers.h */,
+                            60F03C364F9542CFBCF77BE9 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/MacHelpers.h */,
+                            865C9B4FA4534649A15C50B4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/MacHIDManager.h */,
+                            CD7A86177951495CAECA2A54 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/MacInputManager.h */,
+                            7D50478D59164BE48BD28A42 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/MacJoyStick.h */,
+                            D387FF99E7ED4B04B1E73683 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/MacKeyboard.h */,
+                            6EAD5E0A329F4E3997553A42 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/MacMouse.h */,
+                            843FDEEAA84744ABB6B84E97 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/mac/MacPrereqs.h */,
+                     );
+                     name = "Header Files";
+                     sourceTree = "<group>";
+              };
+              745CCE7FDF374631BB8D50D7 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            A40DAB67282A4CE187F4A079 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISEffect.cpp */,
+                            D3DFB88C43014B73B8FC2C3F /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISException.cpp */,
+                            C99A0E1917844AD8B6F5D7D7 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISForceFeedback.cpp */,
+                            E1CF434E786C423E8CECC383 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISInputManager.cpp */,
+                            5C650E2B0170419BA1471E1A /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISJoyStick.cpp */,
+                            3D92AB717F8E4D859633C1C0 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISKeyboard.cpp */,
+                            DB97C9E451A444F39A8196E3 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISObject.cpp */,
+                            8DDFC1EF343E4F8B81D91436 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/extras/LIRC/OISLIRC.cpp */,
+                            80993A26669B4666A7DC104A /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/extras/LIRC/OISLIRCFactoryCreator.cpp */,
+                            4F68BA9B3D634659906A3F77 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/CocoaInputManager.mm */,
+                            00D14A5D9B9844C98C11A3F5 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/CocoaJoyStick.mm */,
+                            04DCD7BDE0F7467A9FEEA8A1 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/CocoaKeyBoard.mm */,
+                            01B6D08C19C64E2987595C14 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/CocoaMouse.mm */,
+                            7C1B761B2C794BA1B428D725 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/MacHelpers.cpp */,
+                            44899993B3A1478DB635AA59 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/MacHIDManager.cpp */,
+                            5E035AFC27E1464AB32018A4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/MacInputManager.cpp */,
+                            326588F13A8A45B591893A33 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/MacJoyStick.cpp */,
+                            E2DB3BC6C4A846B495EF600E /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/MacKeyboard.cpp */,
+                            32EC1F1B161C41EDA5F8F73C /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/MacMouse.cpp */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              0760B51975C34959BF945E77 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            E329F3FA95A34797AF5D9590 /* CMake Rules */,
+                            77F05D24ADE94E9B8C6D7E88 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              E329F3FA95A34797AF5D9590 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              46AF948511594E2EAEC583CD /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            A629453B13F8425FB4FD6679 /* OIS */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              6A898B266F6B4F06B6B7BC59 /* OIS */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 9079DEF2400A4F80B6425E77 /* Build configuration list for PBXNativeTarget "OIS" */;
+                     buildPhases = (
+                            FA1EF88E99BA4F559598AF92 /* Sources */,
+                            066F5DBC79B842C79E30F792 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            F44E5C2BE8DD4B02AE242506 /* PBXTargetDependency */,
+                     );
+                     name = OIS;
+                     productName = OIS;
+                     productReference = A629453B13F8425FB4FD6679 /* OIS */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              A2FD9C5366CA4A3291591714 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = E4A10DECA1D54ED3AB7079FC /* Build configuration list for PBXProject  "OIS" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            380CE4A659D64CC7A1CF9B62 /* Debug */,
+                            C21FB81586714EF497EE11E0 /* Release */,
+                            FD314DE844854726AE6ABD37 /* MinSizeRel */,
+                            14080628E052467B9B58F894 /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 7CCD5D0B78A142B7BB8EFE0C;
+                     projectDirPath = /Users/rongji/Work/u2project_deps/ogredeps/src/ois;
+                     projectRoot = "";
+                     targets = (
+                            CCC3CD69D67B48B0BB35518F /* ALL_BUILD */,
+                            6A898B266F6B4F06B6B7BC59 /* OIS */,
+                            D3404E886AD64511A722380F /* ZERO_CHECK */,
+                            6A1F1235DC7741F9ABA865CC /* install */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              4F3A3D6C1547416FA925A2CC /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              3C923790D078407EAFF80B02 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/rongji/Work/u2project_deps/ogredeps_mac/src/ois -f /Users/rongji/Work/u2project_deps/ogredeps_mac/src/ois/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              066F5DBC79B842C79E30F792 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/rongji/Work/u2project_deps/ogredeps_mac/src/ois -f /Users/rongji/Work/u2project_deps/ogredeps_mac/src/ois/CMakeScripts/OIS_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              F521A606BC524A9FA4D3B326 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              E9013C4FBBF344D880FABA09 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/rongji/Work/u2project_deps/ogredeps_mac/src/ois -f /Users/rongji/Work/u2project_deps/ogredeps_mac/src/ois/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              8CCE50F2B70947009AC89910 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              9B07E2DCB63543598267CA3E /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/rongji/Work/u2project_deps/ogredeps_mac/src/ois -f /Users/rongji/Work/u2project_deps/ogredeps_mac/src/ois/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              FA1EF88E99BA4F559598AF92 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            C4885E94055C4B81BCA656DB /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISEffect.cpp */,
+                            0CBCE545EF284722B95E1C31 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISException.cpp */,
+                            8CAFA99818F348C7A7B2E5A6 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISForceFeedback.cpp */,
+                            A5D473E7D9174415ACFA6BB3 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISInputManager.cpp */,
+                            A9F5D018A9AE43A7A0522581 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISJoyStick.cpp */,
+                            9EB5525923A7498DB10B46DC /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISKeyboard.cpp */,
+                            7A73383AAE104DE893F7401A /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISObject.cpp */,
+                            E286FE2DBFEE4C12956F1BF1 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/extras/LIRC/OISLIRC.cpp */,
+                            B545551E9BF44F71970B2FFA /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/extras/LIRC/OISLIRCFactoryCreator.cpp */,
+                            D7BB8BA642004740BD9D2F1A /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/CocoaInputManager.mm */,
+                            474F884E2DA0410FABC98BB5 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/CocoaJoyStick.mm */,
+                            948A8C5396EE4C2A899A8DDC /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/CocoaKeyBoard.mm */,
+                            8C5191BE51A54351AD6318CC /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/CocoaMouse.mm */,
+                            9F4626EACF474FD7961DD45A /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/MacHelpers.cpp */,
+                            857A41F034FC4B3C981DEAAF /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/MacHIDManager.cpp */,
+                            E72DD08D377546C6B8659D6E /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/MacInputManager.cpp */,
+                            53C3CCE710644B1DA586F665 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/MacJoyStick.cpp */,
+                            97E07AE7277E49EFB291C055 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/MacKeyboard.cpp */,
+                            DD972D8758854F29BD1D9994 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/mac/MacMouse.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              F44E5C2BE8DD4B02AE242506 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = D3404E886AD64511A722380F /* ZERO_CHECK */;
+                     targetProxy = 3B48F7B9BBE64CA18A0A7F63 /* PBXContainerItemProxy */;
+              };
+              E8DE6E736FB14E5B8CA47CE7 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 6A898B266F6B4F06B6B7BC59 /* OIS */;
+                     targetProxy = 6C2FCC20CC2A48DF85498283 /* PBXContainerItemProxy */;
+              };
+              8B18CEEA96A24A18BF040A5E /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = CCC3CD69D67B48B0BB35518F /* ALL_BUILD */;
+                     targetProxy = 8520AF36274444FF812BF94A /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              5662793284E84F318C1A24D1 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            MACOSX_DEPLOYMENT_TARGET = "10.6";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/ois/build;
+                     };
+                     name = Debug;
+              };
+              79D1C1680D5C4E6B85148278 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            MACOSX_DEPLOYMENT_TARGET = "10.6";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/ois/build;
+                     };
+                     name = Release;
+              };
+              B9FA4AF4543B4E808A3C065D /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            MACOSX_DEPLOYMENT_TARGET = "10.6";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/ois/build;
+                     };
+                     name = MinSizeRel;
+              };
+              A51375A7601E48A7987DC7A3 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            MACOSX_DEPLOYMENT_TARGET = "10.6";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/ois/build;
+                     };
+                     name = RelWithDebInfo;
+              };
+              25C264F16FB94330B7F8E7C1 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", OIS_NONCLIENT_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/ois;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              8159C3243F194644A8C175DF /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", OIS_NONCLIENT_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/ois;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              0679527D6CEC4896981BE436 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", OIS_NONCLIENT_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/ois;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              C18161A8B8504764B000EFBD /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", OIS_NONCLIENT_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/ois;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              D07FAFDC3B794C64A23E6A4B /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", OIS_NONCLIENT_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "    ";
+                            OTHER_CPLUSPLUSFLAGS = "    ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = OIS;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/ois;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              186F13B57AD946FB9F69218F /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", OIS_NONCLIENT_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = OIS;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/ois;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              D4EB49D9158D4BC89F4C6180 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", OIS_NONCLIENT_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = OIS;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/ois;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              A6A4E2B1E8A3484D84BF2534 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", OIS_NONCLIENT_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = OIS;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/ois;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              31553808BD65494BB204FB2B /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", OIS_NONCLIENT_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/ois;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              C03CD27432254E96B072801D /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", OIS_NONCLIENT_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/ois;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              19AA53AF4F4542E7A1046D3C /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", OIS_NONCLIENT_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/ois;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              34634BEC9F6D4DB99F6A95B4 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", OIS_NONCLIENT_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/ois;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              1F31377E86EB4DFB9BA2B456 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", OIS_NONCLIENT_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/ois;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              65FD3EE51CF94E5B84763D73 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", OIS_NONCLIENT_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/ois;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              B448E575419E4E42BF71E449 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", OIS_NONCLIENT_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/ois;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              3D7DBA41DF0E43F69E33A133 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", OIS_NONCLIENT_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_mac/src/ois;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              E4A10DECA1D54ED3AB7079FC /* Build configuration list for PBXProject  "OIS" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            5662793284E84F318C1A24D1 /* Debug */,
+                            79D1C1680D5C4E6B85148278 /* Release */,
+                            B9FA4AF4543B4E808A3C065D /* MinSizeRel */,
+                            A51375A7601E48A7987DC7A3 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              D7B7C9B3553A4DAE83DDCC1E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            25C264F16FB94330B7F8E7C1 /* Debug */,
+                            8159C3243F194644A8C175DF /* Release */,
+                            0679527D6CEC4896981BE436 /* MinSizeRel */,
+                            C18161A8B8504764B000EFBD /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              9079DEF2400A4F80B6425E77 /* Build configuration list for PBXNativeTarget "OIS" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            D07FAFDC3B794C64A23E6A4B /* Debug */,
+                            186F13B57AD946FB9F69218F /* Release */,
+                            D4EB49D9158D4BC89F4C6180 /* MinSizeRel */,
+                            A6A4E2B1E8A3484D84BF2534 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              F004A37D5DCA47389A2B400A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            31553808BD65494BB204FB2B /* Debug */,
+                            C03CD27432254E96B072801D /* Release */,
+                            19AA53AF4F4542E7A1046D3C /* MinSizeRel */,
+                            34634BEC9F6D4DB99F6A95B4 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              C1CAF50A4EEC4C7A95C460D5 /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            1F31377E86EB4DFB9BA2B456 /* Debug */,
+                            65FD3EE51CF94E5B84763D73 /* Release */,
+                            B448E575419E4E42BF71E449 /* MinSizeRel */,
+                            3D7DBA41DF0E43F69E33A133 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = A2FD9C5366CA4A3291591714;
+}

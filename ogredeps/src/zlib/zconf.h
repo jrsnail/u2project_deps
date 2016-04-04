@@ -454,6 +454,10 @@ typedef uLong FAR uLongf;
 #  endif
 #endif
 
+#if defined(__APPLE__) && !defined(_UNISTD_H_)
+#   include <unistd.h>
+#endif
+
 #if defined(_LFS64_LARGEFILE) && _LFS64_LARGEFILE-0
 #  define Z_LFS64
 #endif

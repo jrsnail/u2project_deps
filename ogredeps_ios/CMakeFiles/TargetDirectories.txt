@@ -1,0 +1,7 @@
+/Users/rongji/Work/u2project_deps/ogredeps_ios/src/zziplib/CMakeFiles/ALL_BUILD.dir
+/Users/rongji/Work/u2project_deps/ogredeps_ios/src/FreeImage/CMakeFiles/FreeImage.dir
+/Users/rongji/Work/u2project_deps/ogredeps_ios/src/ois/CMakeFiles/OIS.dir
+/Users/rongji/Work/u2project_deps/ogredeps_ios/src/zziplib/CMakeFiles/ZERO_CHECK.dir
+/Users/rongji/Work/u2project_deps/ogredeps_ios/src/freetype/CMakeFiles/freetype.dir
+/Users/rongji/Work/u2project_deps/ogredeps_ios/src/zlib/CMakeFiles/zlib.dir
+/Users/rongji/Work/u2project_deps/ogredeps_ios/src/zziplib/CMakeFiles/zziplib.dir

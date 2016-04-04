@@ -1,0 +1,951 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              08586522DA204D71BCF87CF3 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = E2455461AFDA4E39AF7CAEF4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            2D6430281DAA44D6BBBEFFF7 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            13A7EE0DD8424B0CAFE5BF71 /* PBXTargetDependency */,
+                            9474E285AA6C4B988C1DBCB2 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              BFA999217A5941D192B7BCB0 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = F42C16FD2FF246CEA796B4A0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            23DA50A3055E414E8EA65974 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              1638520ADEE94C57AB12CC1F /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = A1D176282B54413098E8F9FB /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            20EF784F4BF04E04BB6084BB /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            D3DD92F8E8E8493F9519CBAA /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+6325FF0B384E4E828E7760C5 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISConfig.h */ = {isa = PBXBuildFile; fileRef = 20713B43028F4E078EBEDA9B /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISConfig.h */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+35C45A3C89A04CC086223F05 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISEffect.h */ = {isa = PBXBuildFile; fileRef = 69654691191C4D009830C1EB /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISEffect.h */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+9D34C5D0591B4EDEA3EC7247 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISEvents.h */ = {isa = PBXBuildFile; fileRef = 9CAD25D6D2A14DB586213F80 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISEvents.h */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+11FC528E4E6443E9AF0DBCB7 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISException.h */ = {isa = PBXBuildFile; fileRef = C4779EA78A734BCE8D565B00 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISException.h */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+CA4035EEB4324E8EBE490F3C /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISFactoryCreator.h */ = {isa = PBXBuildFile; fileRef = 803F8E29486443A685581C83 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISFactoryCreator.h */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+34E7BABE46464C9187F726D0 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISForceFeedback.h */ = {isa = PBXBuildFile; fileRef = 4E7C2074219746DD91992BED /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISForceFeedback.h */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+CC379B34D9AF4D18BF1C7FD3 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OIS.h */ = {isa = PBXBuildFile; fileRef = BB2886828C204B51A1C062A7 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OIS.h */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+50D93B5684FA45F5B662181A /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISInputManager.h */ = {isa = PBXBuildFile; fileRef = 130C764D9C6A497FA421A857 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISInputManager.h */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+9C582A508399467C955D8808 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISInterface.h */ = {isa = PBXBuildFile; fileRef = CFFF222661CB463CB0812B2A /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISInterface.h */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+6E6ABF7B98D244D9A69EA13E /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISJoyStick.h */ = {isa = PBXBuildFile; fileRef = C24B94D9B3C848AEA9B8F199 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISJoyStick.h */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+D3E8C56B1C584623B640AA72 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISKeyboard.h */ = {isa = PBXBuildFile; fileRef = 34CA952AD9AC4904A8265291 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISKeyboard.h */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+4D969A299CC844B78157A6A3 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISMouse.h */ = {isa = PBXBuildFile; fileRef = 2BFF97DCFF98456CB4072CDF /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISMouse.h */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+DDE7B5A233F3449684098B8B /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISMultiTouch.h */ = {isa = PBXBuildFile; fileRef = E1B28A26E3084F1F83BA53B8 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISMultiTouch.h */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+E01BD863F0514A34863C1D1D /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISObject.h */ = {isa = PBXBuildFile; fileRef = 0285A9504C1640A497A7CE3B /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISObject.h */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+2F8DE7E1308446728604D0FA /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISPrereqs.h */ = {isa = PBXBuildFile; fileRef = F115CD5F4EEB4855A9BB5B2E /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISPrereqs.h */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+3A0F79CBD31A4A199F68DCF7 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISEffect.cpp */ = {isa = PBXBuildFile; fileRef = 541FB625C8A54DDB873E1FE6 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISEffect.cpp */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+4B48A4CB186D45F9A96B0C1F /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISException.cpp */ = {isa = PBXBuildFile; fileRef = A37571C8F9C04D9C939FF553 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISException.cpp */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+C37E13574DE5458093DD8047 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISForceFeedback.cpp */ = {isa = PBXBuildFile; fileRef = BD1BD7CD51CE4B4EBD98FB1D /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISForceFeedback.cpp */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+A7F8D84484F94A439C3B7A82 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISInputManager.cpp */ = {isa = PBXBuildFile; fileRef = 4EED116D77F64D3786461F70 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISInputManager.cpp */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+2819007852A745C394B71283 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISJoyStick.cpp */ = {isa = PBXBuildFile; fileRef = F2215C3B13BB493F88782F33 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISJoyStick.cpp */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+D18E0306E7D041019669E883 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISKeyboard.cpp */ = {isa = PBXBuildFile; fileRef = 6014B2E065904FAD8A981CA7 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISKeyboard.cpp */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+7890C91BD474403792ED1D9B /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISObject.cpp */ = {isa = PBXBuildFile; fileRef = E2A84726F76744249D573471 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISObject.cpp */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+EB99CF235B014768A9B4EC85 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/extras/LIRC/OISLIRC.cpp */ = {isa = PBXBuildFile; fileRef = ABF819B3CAFA428286782964 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/extras/LIRC/OISLIRC.cpp */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+C5DCE1513B5F46FB885F850E /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/extras/LIRC/OISLIRCFactoryCreator.cpp */ = {isa = PBXBuildFile; fileRef = FAF58FA24DF445BC8CCA82DB /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/extras/LIRC/OISLIRCFactoryCreator.cpp */; settings = { COMPILER_FLAGS = "-x objective-c++"; }; };
+645A0D3B200E401D943ACFF7 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/iphone/iPhoneAccelerometer.h */ = {isa = PBXBuildFile; fileRef = 9F613CBCA18D44A9BFA9B3BD /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/iphone/iPhoneAccelerometer.h */; settings = { COMPILER_FLAGS = ""; }; };
+B1E7ED558AB74BE596391C5C /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/iphone/iPhoneHelpers.h */ = {isa = PBXBuildFile; fileRef = 08ED6202F49543228D311A1C /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/iphone/iPhoneHelpers.h */; settings = { COMPILER_FLAGS = ""; }; };
+CBBA901D7A7A4248A8C3F4C4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/iphone/iPhoneInputManager.h */ = {isa = PBXBuildFile; fileRef = 0C2446690F22438CA67AF0E4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/iphone/iPhoneInputManager.h */; settings = { COMPILER_FLAGS = ""; }; };
+04C4477E12154223A658A9EF /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/iphone/iPhoneMultiTouch.h */ = {isa = PBXBuildFile; fileRef = 296DFF11DB604D94BE5026A2 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/iphone/iPhoneMultiTouch.h */; settings = { COMPILER_FLAGS = ""; }; };
+CDF3C886ED1945128B44A6C8 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/iphone/iPhonePrereqs.h */ = {isa = PBXBuildFile; fileRef = 3643B50C789140FEB3AD6A20 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/iphone/iPhonePrereqs.h */; settings = { COMPILER_FLAGS = ""; }; };
+7A35E53EE1C1477596569DC7 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/iphone/iPhoneAccelerometer.mm */ = {isa = PBXBuildFile; fileRef = 439089B24DC3453AA2C9858C /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/iphone/iPhoneAccelerometer.mm */; settings = { COMPILER_FLAGS = ""; }; };
+6911C09E27DA457482376FB5 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/iphone/iPhoneInputManager.mm */ = {isa = PBXBuildFile; fileRef = FF0C615060774B8891DFEC68 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/iphone/iPhoneInputManager.mm */; settings = { COMPILER_FLAGS = ""; }; };
+56E38D048F6E4DA5AABF0442 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/iphone/iPhoneMultiTouch.mm */ = {isa = PBXBuildFile; fileRef = B56B9B5A0CF943CF959D03AF /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/iphone/iPhoneMultiTouch.mm */; settings = { COMPILER_FLAGS = ""; }; };
+9B47811AD8DC484B8DD7E326 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0840DBB4F9A44AC4B2EFCCFD /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              E9741F9A89BD478CB55F0D72 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              5AE2B44101984F418BF5F367 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              BCAD0195A531422F85C6F49D /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              4DF801D095BF4BBC92DED075 /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              E620701E551A46938AF12DC9 /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              5CB0A2DC56C443E58E3DC51F /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = C9F64C899E2540EAAFCE2F53 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = BFA999217A5941D192B7BCB0;
+                     remoteInfo = ZERO_CHECK;
+              };
+              CD605A305F764255989EC0E3 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = C9F64C899E2540EAAFCE2F53 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = FEE3A129088A40279FF66D7D;
+                     remoteInfo = OIS;
+              };
+              4D0012847B3C422DB29471FB /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = C9F64C899E2540EAAFCE2F53 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 08586522DA204D71BCF87CF3;
+                     remoteInfo = ALL_BUILD;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+0840DBB4F9A44AC4B2EFCCFD /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+20713B43028F4E078EBEDA9B /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "OISConfig.h"; path = "includes/OISConfig.h"; sourceTree = SOURCE_ROOT; };
+69654691191C4D009830C1EB /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "OISEffect.h"; path = "includes/OISEffect.h"; sourceTree = SOURCE_ROOT; };
+9CAD25D6D2A14DB586213F80 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "OISEvents.h"; path = "includes/OISEvents.h"; sourceTree = SOURCE_ROOT; };
+C4779EA78A734BCE8D565B00 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "OISException.h"; path = "includes/OISException.h"; sourceTree = SOURCE_ROOT; };
+803F8E29486443A685581C83 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISFactoryCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "OISFactoryCreator.h"; path = "includes/OISFactoryCreator.h"; sourceTree = SOURCE_ROOT; };
+4E7C2074219746DD91992BED /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISForceFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "OISForceFeedback.h"; path = "includes/OISForceFeedback.h"; sourceTree = SOURCE_ROOT; };
+BB2886828C204B51A1C062A7 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OIS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "OIS.h"; path = "includes/OIS.h"; sourceTree = SOURCE_ROOT; };
+130C764D9C6A497FA421A857 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISInputManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "OISInputManager.h"; path = "includes/OISInputManager.h"; sourceTree = SOURCE_ROOT; };
+CFFF222661CB463CB0812B2A /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "OISInterface.h"; path = "includes/OISInterface.h"; sourceTree = SOURCE_ROOT; };
+C24B94D9B3C848AEA9B8F199 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISJoyStick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "OISJoyStick.h"; path = "includes/OISJoyStick.h"; sourceTree = SOURCE_ROOT; };
+34CA952AD9AC4904A8265291 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "OISKeyboard.h"; path = "includes/OISKeyboard.h"; sourceTree = SOURCE_ROOT; };
+2BFF97DCFF98456CB4072CDF /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISMouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "OISMouse.h"; path = "includes/OISMouse.h"; sourceTree = SOURCE_ROOT; };
+E1B28A26E3084F1F83BA53B8 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISMultiTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "OISMultiTouch.h"; path = "includes/OISMultiTouch.h"; sourceTree = SOURCE_ROOT; };
+0285A9504C1640A497A7CE3B /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "OISObject.h"; path = "includes/OISObject.h"; sourceTree = SOURCE_ROOT; };
+F115CD5F4EEB4855A9BB5B2E /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISPrereqs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "OISPrereqs.h"; path = "includes/OISPrereqs.h"; sourceTree = SOURCE_ROOT; };
+541FB625C8A54DDB873E1FE6 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISEffect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "OISEffect.cpp"; path = "src/OISEffect.cpp"; sourceTree = SOURCE_ROOT; };
+A37571C8F9C04D9C939FF553 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "OISException.cpp"; path = "src/OISException.cpp"; sourceTree = SOURCE_ROOT; };
+BD1BD7CD51CE4B4EBD98FB1D /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISForceFeedback.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "OISForceFeedback.cpp"; path = "src/OISForceFeedback.cpp"; sourceTree = SOURCE_ROOT; };
+4EED116D77F64D3786461F70 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISInputManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "OISInputManager.cpp"; path = "src/OISInputManager.cpp"; sourceTree = SOURCE_ROOT; };
+F2215C3B13BB493F88782F33 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISJoyStick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "OISJoyStick.cpp"; path = "src/OISJoyStick.cpp"; sourceTree = SOURCE_ROOT; };
+6014B2E065904FAD8A981CA7 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISKeyboard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "OISKeyboard.cpp"; path = "src/OISKeyboard.cpp"; sourceTree = SOURCE_ROOT; };
+E2A84726F76744249D573471 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "OISObject.cpp"; path = "src/OISObject.cpp"; sourceTree = SOURCE_ROOT; };
+ABF819B3CAFA428286782964 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/extras/LIRC/OISLIRC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "OISLIRC.cpp"; path = "src/extras/LIRC/OISLIRC.cpp"; sourceTree = SOURCE_ROOT; };
+FAF58FA24DF445BC8CCA82DB /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/extras/LIRC/OISLIRCFactoryCreator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "OISLIRCFactoryCreator.cpp"; path = "src/extras/LIRC/OISLIRCFactoryCreator.cpp"; sourceTree = SOURCE_ROOT; };
+9F613CBCA18D44A9BFA9B3BD /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/iphone/iPhoneAccelerometer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "iPhoneAccelerometer.h"; path = "includes/iphone/iPhoneAccelerometer.h"; sourceTree = SOURCE_ROOT; };
+08ED6202F49543228D311A1C /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/iphone/iPhoneHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "iPhoneHelpers.h"; path = "includes/iphone/iPhoneHelpers.h"; sourceTree = SOURCE_ROOT; };
+0C2446690F22438CA67AF0E4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/iphone/iPhoneInputManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "iPhoneInputManager.h"; path = "includes/iphone/iPhoneInputManager.h"; sourceTree = SOURCE_ROOT; };
+296DFF11DB604D94BE5026A2 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/iphone/iPhoneMultiTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "iPhoneMultiTouch.h"; path = "includes/iphone/iPhoneMultiTouch.h"; sourceTree = SOURCE_ROOT; };
+3643B50C789140FEB3AD6A20 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/iphone/iPhonePrereqs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "iPhonePrereqs.h"; path = "includes/iphone/iPhonePrereqs.h"; sourceTree = SOURCE_ROOT; };
+439089B24DC3453AA2C9858C /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/iphone/iPhoneAccelerometer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.objcpp"; name = "iPhoneAccelerometer.mm"; path = "src/iphone/iPhoneAccelerometer.mm"; sourceTree = SOURCE_ROOT; };
+FF0C615060774B8891DFEC68 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/iphone/iPhoneInputManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.objcpp"; name = "iPhoneInputManager.mm"; path = "src/iphone/iPhoneInputManager.mm"; sourceTree = SOURCE_ROOT; };
+B56B9B5A0CF943CF959D03AF /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/iphone/iPhoneMultiTouch.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.objcpp"; name = "iPhoneMultiTouch.mm"; path = "src/iphone/iPhoneMultiTouch.mm"; sourceTree = SOURCE_ROOT; };
+5616DDE459C5440A92173075 /* OIS */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libOIS.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              26B4F8DFA8134CE2A059C019  = {
+                     isa = PBXGroup;
+                     children = (
+                            6CD398A472084F50AFAE05EA /* Sources */,
+                            A31FF45163FB4FD48D45DECA /* Resources */,
+                            1F7689C3AD2D4447933F0534 /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              6CD398A472084F50AFAE05EA /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            76B7381D1D39432BB5C7EDC1 /* ALL_BUILD */,
+                            6D8BEBC386E04C448DF2A936 /* OIS */,
+                            302F7B24DDEB4E7E91451198 /* ZERO_CHECK */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              A31FF45163FB4FD48D45DECA /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              76B7381D1D39432BB5C7EDC1 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            AEE8A0AC736B4D5EA08303D0 /* CMake Rules */,
+                            0840DBB4F9A44AC4B2EFCCFD /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              AEE8A0AC736B4D5EA08303D0 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              6D8BEBC386E04C448DF2A936 /* OIS */ = {
+                     isa = PBXGroup;
+                     children = (
+                            AF78B1F5793E46B38C39A342 /* Header Files */,
+                            84860A550C354F0D84575E4D /* Source Files */,
+                            0840DBB4F9A44AC4B2EFCCFD /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/CMakeLists.txt */,
+                     );
+                     name = OIS;
+                     sourceTree = "<group>";
+              };
+              AF78B1F5793E46B38C39A342 /* Header Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            20713B43028F4E078EBEDA9B /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISConfig.h */,
+                            69654691191C4D009830C1EB /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISEffect.h */,
+                            9CAD25D6D2A14DB586213F80 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISEvents.h */,
+                            C4779EA78A734BCE8D565B00 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISException.h */,
+                            803F8E29486443A685581C83 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISFactoryCreator.h */,
+                            4E7C2074219746DD91992BED /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISForceFeedback.h */,
+                            BB2886828C204B51A1C062A7 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OIS.h */,
+                            130C764D9C6A497FA421A857 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISInputManager.h */,
+                            CFFF222661CB463CB0812B2A /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISInterface.h */,
+                            C24B94D9B3C848AEA9B8F199 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISJoyStick.h */,
+                            34CA952AD9AC4904A8265291 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISKeyboard.h */,
+                            2BFF97DCFF98456CB4072CDF /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISMouse.h */,
+                            E1B28A26E3084F1F83BA53B8 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISMultiTouch.h */,
+                            0285A9504C1640A497A7CE3B /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISObject.h */,
+                            F115CD5F4EEB4855A9BB5B2E /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/OISPrereqs.h */,
+                            9F613CBCA18D44A9BFA9B3BD /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/iphone/iPhoneAccelerometer.h */,
+                            08ED6202F49543228D311A1C /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/iphone/iPhoneHelpers.h */,
+                            0C2446690F22438CA67AF0E4 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/iphone/iPhoneInputManager.h */,
+                            296DFF11DB604D94BE5026A2 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/iphone/iPhoneMultiTouch.h */,
+                            3643B50C789140FEB3AD6A20 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes/iphone/iPhonePrereqs.h */,
+                     );
+                     name = "Header Files";
+                     sourceTree = "<group>";
+              };
+              84860A550C354F0D84575E4D /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            541FB625C8A54DDB873E1FE6 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISEffect.cpp */,
+                            A37571C8F9C04D9C939FF553 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISException.cpp */,
+                            BD1BD7CD51CE4B4EBD98FB1D /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISForceFeedback.cpp */,
+                            4EED116D77F64D3786461F70 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISInputManager.cpp */,
+                            F2215C3B13BB493F88782F33 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISJoyStick.cpp */,
+                            6014B2E065904FAD8A981CA7 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISKeyboard.cpp */,
+                            E2A84726F76744249D573471 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISObject.cpp */,
+                            ABF819B3CAFA428286782964 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/extras/LIRC/OISLIRC.cpp */,
+                            FAF58FA24DF445BC8CCA82DB /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/extras/LIRC/OISLIRCFactoryCreator.cpp */,
+                            439089B24DC3453AA2C9858C /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/iphone/iPhoneAccelerometer.mm */,
+                            FF0C615060774B8891DFEC68 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/iphone/iPhoneInputManager.mm */,
+                            B56B9B5A0CF943CF959D03AF /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/iphone/iPhoneMultiTouch.mm */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              302F7B24DDEB4E7E91451198 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            AEFC85F723A14E7082B5D68D /* CMake Rules */,
+                            0840DBB4F9A44AC4B2EFCCFD /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              AEFC85F723A14E7082B5D68D /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              1F7689C3AD2D4447933F0534 /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            5616DDE459C5440A92173075 /* OIS */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              FEE3A129088A40279FF66D7D /* OIS */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 26D6D24D15294AE699DC294B /* Build configuration list for PBXNativeTarget "OIS" */;
+                     buildPhases = (
+                            2BA07512B5184A45870473B0 /* Sources */,
+                            65299CBE8DD347CAB2BDFAD0 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            13A7EE0DD8424B0CAFE5BF71 /* PBXTargetDependency */,
+                     );
+                     name = OIS;
+                     productName = OIS;
+                     productReference = 5616DDE459C5440A92173075 /* OIS */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              C9F64C899E2540EAAFCE2F53 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 6FF24CCCA42A4B9A9EC1551F /* Build configuration list for PBXProject  "OIS" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            5AE2B44101984F418BF5F367 /* Debug */,
+                            BCAD0195A531422F85C6F49D /* Release */,
+                            4DF801D095BF4BBC92DED075 /* MinSizeRel */,
+                            E620701E551A46938AF12DC9 /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 26B4F8DFA8134CE2A059C019;
+                     projectDirPath = /Users/rongji/Work/u2project_deps/ogredeps/src/ois;
+                     projectRoot = "";
+                     targets = (
+                            08586522DA204D71BCF87CF3 /* ALL_BUILD */,
+                            FEE3A129088A40279FF66D7D /* OIS */,
+                            BFA999217A5941D192B7BCB0 /* ZERO_CHECK */,
+                            1638520ADEE94C57AB12CC1F /* install */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              4F2D22076D7F42A78C8FC8D5 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              2D6430281DAA44D6BBBEFFF7 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/rongji/Work/u2project_deps/ogredeps_ios/src/ois -f /Users/rongji/Work/u2project_deps/ogredeps_ios/src/ois/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              65299CBE8DD347CAB2BDFAD0 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/rongji/Work/u2project_deps/ogredeps_ios/src/ois -f /Users/rongji/Work/u2project_deps/ogredeps_ios/src/ois/CMakeScripts/OIS_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              A4E81832764A475FA947CCE1 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              23DA50A3055E414E8EA65974 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/rongji/Work/u2project_deps/ogredeps_ios/src/ois -f /Users/rongji/Work/u2project_deps/ogredeps_ios/src/ois/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              C1CA7A0CE83C46709A2081C0 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              20EF784F4BF04E04BB6084BB /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/rongji/Work/u2project_deps/ogredeps_ios/src/ois -f /Users/rongji/Work/u2project_deps/ogredeps_ios/src/ois/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              2BA07512B5184A45870473B0 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            3A0F79CBD31A4A199F68DCF7 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISEffect.cpp */,
+                            4B48A4CB186D45F9A96B0C1F /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISException.cpp */,
+                            C37E13574DE5458093DD8047 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISForceFeedback.cpp */,
+                            A7F8D84484F94A439C3B7A82 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISInputManager.cpp */,
+                            2819007852A745C394B71283 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISJoyStick.cpp */,
+                            D18E0306E7D041019669E883 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISKeyboard.cpp */,
+                            7890C91BD474403792ED1D9B /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/OISObject.cpp */,
+                            EB99CF235B014768A9B4EC85 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/extras/LIRC/OISLIRC.cpp */,
+                            C5DCE1513B5F46FB885F850E /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/extras/LIRC/OISLIRCFactoryCreator.cpp */,
+                            7A35E53EE1C1477596569DC7 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/iphone/iPhoneAccelerometer.mm */,
+                            6911C09E27DA457482376FB5 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/iphone/iPhoneInputManager.mm */,
+                            56E38D048F6E4DA5AABF0442 /* /Users/rongji/Work/u2project_deps/ogredeps/src/ois/src/iphone/iPhoneMultiTouch.mm */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              13A7EE0DD8424B0CAFE5BF71 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = BFA999217A5941D192B7BCB0 /* ZERO_CHECK */;
+                     targetProxy = 5CB0A2DC56C443E58E3DC51F /* PBXContainerItemProxy */;
+              };
+              9474E285AA6C4B988C1DBCB2 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = FEE3A129088A40279FF66D7D /* OIS */;
+                     targetProxy = CD605A305F764255989EC0E3 /* PBXContainerItemProxy */;
+              };
+              D3DD92F8E8E8493F9519CBAA /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 08586522DA204D71BCF87CF3 /* ALL_BUILD */;
+                     targetProxy = 4D0012847B3C422DB29471FB /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              E290C04720344BB38C53E263 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = iphoneos;
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/ois/build;
+                     };
+                     name = Debug;
+              };
+              ABF1C2AFA6104F61876DEB11 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = iphoneos;
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/ois/build;
+                     };
+                     name = Release;
+              };
+              8BE9534E65304F5784F59894 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = iphoneos;
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/ois/build;
+                     };
+                     name = MinSizeRel;
+              };
+              334A125BDFB843588B5C021F /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = iphoneos;
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/ois/build;
+                     };
+                     name = RelWithDebInfo;
+              };
+              E9B9ABDB4176404CA9F0475B /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", OIS_NONCLIENT_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/ois;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              0B682D8FF5C64770B9F343F2 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", OIS_NONCLIENT_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/ois;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              42AF09B106934B2F83BEA73D /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", OIS_NONCLIENT_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/ois;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              D5A6D03997B84526A1011AA9 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", OIS_NONCLIENT_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/ois;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              3CF50B9809D5426B95823E64 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", OIS_NONCLIENT_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            GCC_THUMB_SUPPORT = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes, );
+                            INSTALL_PATH = "";
+                            IPHONEOS_DEPLOYMENT_TARGET = "5.0";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "    ";
+                            OTHER_CPLUSPLUSFLAGS = "    ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = OIS;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/ois;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              D6D20E7287ED4693A937A6AF /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", OIS_NONCLIENT_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            GCC_THUMB_SUPPORT = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes, );
+                            INSTALL_PATH = "";
+                            IPHONEOS_DEPLOYMENT_TARGET = "5.0";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = OIS;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/ois;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              DB9A6675B6C14A2186A56C71 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", OIS_NONCLIENT_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            GCC_THUMB_SUPPORT = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes, );
+                            INSTALL_PATH = "";
+                            IPHONEOS_DEPLOYMENT_TARGET = "5.0";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = OIS;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/ois;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              8125A03C35C145C694460BEC /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", OIS_NONCLIENT_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            GCC_THUMB_SUPPORT = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes, );
+                            INSTALL_PATH = "";
+                            IPHONEOS_DEPLOYMENT_TARGET = "5.0";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = OIS;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/ois;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              CE8DE922BC694E84B0DA7D40 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", OIS_NONCLIENT_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/ois;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              5E5720D410BE44419965E50E /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", OIS_NONCLIENT_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/ois;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              F1D3A4FA24484178AF6FD092 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", OIS_NONCLIENT_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/ois;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              7B11E1E8AE9547558860D73E /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", OIS_NONCLIENT_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/ois;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              72BE97672D774496AC617A12 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", OIS_NONCLIENT_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/ois;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              2FFC0CD23824496C99151BE8 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", OIS_NONCLIENT_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/ois;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              F6A936D8131D402E85C5A7C2 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", OIS_NONCLIENT_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/ois;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              879C7EC4033243839050C19C /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", OIS_NONCLIENT_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/rongji/Work/u2project_deps/ogredeps/src/ois/includes, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/rongji/Work/u2project_deps/ogredeps_ios/src/ois;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              6FF24CCCA42A4B9A9EC1551F /* Build configuration list for PBXProject  "OIS" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            E290C04720344BB38C53E263 /* Debug */,
+                            ABF1C2AFA6104F61876DEB11 /* Release */,
+                            8BE9534E65304F5784F59894 /* MinSizeRel */,
+                            334A125BDFB843588B5C021F /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              E2455461AFDA4E39AF7CAEF4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            E9B9ABDB4176404CA9F0475B /* Debug */,
+                            0B682D8FF5C64770B9F343F2 /* Release */,
+                            42AF09B106934B2F83BEA73D /* MinSizeRel */,
+                            D5A6D03997B84526A1011AA9 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              26D6D24D15294AE699DC294B /* Build configuration list for PBXNativeTarget "OIS" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            3CF50B9809D5426B95823E64 /* Debug */,
+                            D6D20E7287ED4693A937A6AF /* Release */,
+                            DB9A6675B6C14A2186A56C71 /* MinSizeRel */,
+                            8125A03C35C145C694460BEC /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              F42C16FD2FF246CEA796B4A0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            CE8DE922BC694E84B0DA7D40 /* Debug */,
+                            5E5720D410BE44419965E50E /* Release */,
+                            F1D3A4FA24484178AF6FD092 /* MinSizeRel */,
+                            7B11E1E8AE9547558860D73E /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              A1D176282B54413098E8F9FB /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            72BE97672D774496AC617A12 /* Debug */,
+                            2FFC0CD23824496C99151BE8 /* Release */,
+                            F6A936D8131D402E85C5A7C2 /* MinSizeRel */,
+                            879C7EC4033243839050C19C /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = C9F64C899E2540EAAFCE2F53;
+}

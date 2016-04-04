@@ -428,6 +428,10 @@ typedef uLong FAR uLongf;
 #  endif
 #endif
 
+#if defined(__APPLE__) && !defined(_UNISTD_H_)
+#   include <unistd.h>
+#endif
+
 #if !defined(SEEK_SET) && !defined(Z_SOLO)
 #  define SEEK_SET        0       /* Seek from beginning of file.  */
 #  define SEEK_CUR        1       /* Seek from current position.  */
