@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Work\u2project_deps\ogredeps\src\ois\src\OISEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\u2project_deps\ogredeps\src\ois\src\OISException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\u2project_deps\ogredeps\src\ois\src\OISForceFeedback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\u2project_deps\ogredeps\src\ois\src\OISInputManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\u2project_deps\ogredeps\src\ois\src\OISJoyStick.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\u2project_deps\ogredeps\src\ois\src\OISKeyboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\u2project_deps\ogredeps\src\ois\src\OISObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\u2project_deps\ogredeps\src\ois\src\extras\LIRC\OISLIRC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\u2project_deps\ogredeps\src\ois\src\extras\LIRC\OISLIRCFactoryCreator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\u2project_deps\ogredeps\src\ois\src\win32\Win32ForceFeedback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\u2project_deps\ogredeps\src\ois\src\win32\Win32InputManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\u2project_deps\ogredeps\src\ois\src\win32\Win32JoyStick.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\u2project_deps\ogredeps\src\ois\src\win32\Win32KeyBoard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\u2project_deps\ogredeps\src\ois\src\win32\Win32Mouse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\u2project_deps\ogredeps\src\ois\src\win32\extras\WiiMote\hiddevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\u2project_deps\ogredeps\src\ois\src\win32\extras\WiiMote\OISWiiMote.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\u2project_deps\ogredeps\src\ois\src\win32\extras\WiiMote\OISWiiMoteFactoryCreator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\u2project_deps\ogredeps\src\ois\src\win32\extras\WiiMote\OISWiiMoteForceFeedback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\u2project_deps\ogredeps\src\ois\src\win32\extras\WiiMote\OISWiiMoteRingBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\u2project_deps\ogredeps\src\ois\src\win32\extras\WiiMote\wiimote.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Work\u2project_deps\ogredeps\src\ois\includes\OISConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\u2project_deps\ogredeps\src\ois\includes\OISEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\u2project_deps\ogredeps\src\ois\includes\OISEvents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\u2project_deps\ogredeps\src\ois\includes\OISException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\u2project_deps\ogredeps\src\ois\includes\OISFactoryCreator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\u2project_deps\ogredeps\src\ois\includes\OISForceFeedback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\u2project_deps\ogredeps\src\ois\includes\OIS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\u2project_deps\ogredeps\src\ois\includes\OISInputManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\u2project_deps\ogredeps\src\ois\includes\OISInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\u2project_deps\ogredeps\src\ois\includes\OISJoyStick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\u2project_deps\ogredeps\src\ois\includes\OISKeyboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\u2project_deps\ogredeps\src\ois\includes\OISMouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\u2project_deps\ogredeps\src\ois\includes\OISMultiTouch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\u2project_deps\ogredeps\src\ois\includes\OISObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\u2project_deps\ogredeps\src\ois\includes\OISPrereqs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\u2project_deps\ogredeps\src\ois\includes\win32\Win32ForceFeedback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\u2project_deps\ogredeps\src\ois\includes\win32\Win32InputManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\u2project_deps\ogredeps\src\ois\includes\win32\Win32JoyStick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\u2project_deps\ogredeps\src\ois\includes\win32\Win32KeyBoard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\u2project_deps\ogredeps\src\ois\includes\win32\Win32Mouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\u2project_deps\ogredeps\src\ois\includes\win32\Win32Prereqs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Work\u2project_deps\ogredeps\src\ois\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{799DB18E-1ED3-308B-8D03-F4725A25C728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0281008E-DD1D-3A15-BA9F-35F2DE1F5FEB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
